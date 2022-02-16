@@ -7,6 +7,21 @@
     border: none;
 }
 
+
+/*----------------------------------------------------header*/
+.logo {
+    text-align: center;
+    text-transform: uppercase;
+    color:#ffcb05;
+    text-shadow:
+    -1px -1px 0 #2a75bb,  
+     1px -1px 0 #2a75bb,
+     -1px 1px 0 #2a75bb,
+      1px 1px 0 #2a75bb;
+    text-decoration: none;
+    font-size: 400%;
+}
+
 /*---------------------------------------------------- body*/
 
 body {
@@ -26,20 +41,23 @@ a {
     height: 100vh;
 }
 
-.logo {
-    text-align: center;
-    text-transform: uppercase;
-    color:#ffcb05;
-    text-shadow:
-    -1px -1px 0 #2a75bb,  
-     1px -1px 0 #2a75bb,
-     -1px 1px 0 #2a75bb,
-      1px 1px 0 #2a75bb;
-    text-decoration: none;
-    font-size: 400%;
+/*---------------------------------------------------- game-section*/
+
+.game-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative
 }
 
-/*---------------------------------------------------- menu*/
+.game-container {
+    background: #2a75bb;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+}
+
 
 
 
