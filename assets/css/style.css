@@ -89,6 +89,18 @@ a {
     height: 65px
 }
 
+.btn:hover {
+    color: white;
+}
+
+#menu-h2 {
+    font-size: 2rem;
+}
+
+#menu-h3 {
+    font-size: 1.5rem;
+}
+
 
 
 /*---------------------------------------------------- media queries*/
