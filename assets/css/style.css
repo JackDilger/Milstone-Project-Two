@@ -92,6 +92,24 @@ a {
 
 
 
+/*---------------------------------------------------- media queries*/
+@media (max-width: 480px) {
+    .menu-controls button {
+        width: 150px;
+    }
+}
+
+@media (max-width: 330px) {
+    .menu-controls button {
+        width: 100px;
+        font-size: 15px;
+    }
+    .logo {
+        font-size: 300%;
+    }
+}
+
+
 
 
 
