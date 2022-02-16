@@ -69,6 +69,26 @@ a {
     padding: 20px;
 }
 
+.menu-controls {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+.menu-controls button {
+    color: white;
+    font-size: 20px;
+    font-weight:900
+    font-family: 'Lato', sans-serif;
+    background-color: #ffcb05;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 10px;
+    width: 200px;
+    height: 65px
+    
+}
 
 
 
