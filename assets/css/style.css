@@ -10,6 +10,7 @@
 
 /*----------------------------------------------------header*/
 .logo {
+    padding-top: 30px;
     text-align: center;
     text-transform: uppercase;
     color:#ffcb05;
@@ -48,7 +49,8 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative
+    position: relative;
+    padding-top: 30px;
 }
 
 .game-container {
@@ -56,6 +58,11 @@ a {
     width: 50%;
     height: 500px;
     border-radius: 10px;
+    
+}
+
+.menu {
+
 }
 
 
