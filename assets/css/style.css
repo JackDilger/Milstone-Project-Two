@@ -13,6 +13,10 @@ body {
     font-family: 'Bangers', cursive;
 }
 
+a {
+    text-decoration: none;
+}
+
 .background {
     background-image: url("../images/pokemon.background.jpg");
     background-repeat: no-repeat;
@@ -32,8 +36,12 @@ body {
      -1px 1px 0 #2a75bb,
       1px 1px 0 #2a75bb;
     text-decoration: none;
-    font-size: 300%;
+    font-size: 400%;
 }
+
+/*---------------------------------------------------- menu*/
+
+
 
 
 
