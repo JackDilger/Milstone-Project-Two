@@ -64,11 +64,11 @@ a {
 .menu {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
     justify-content: center;
     color: white;
     padding: 20px;
 }
+
 
 .menu-controls {
     display: grid;
@@ -79,16 +79,14 @@ a {
 }
 
 .menu-controls button {
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight:900
     font-family: 'Lato', sans-serif;
     background-color: #ffcb05;
-    box-shadow: 1px 1px 10px #000;
     border-radius: 10px;
     width: 200px;
     height: 65px
-    
 }
 
 
