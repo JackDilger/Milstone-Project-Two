@@ -91,7 +91,6 @@ a {
 
 
 
-
 /*---------------------------------------------------- media queries*/
 @media (max-width: 480px) {
     .menu-controls button {
@@ -106,6 +105,14 @@ a {
     }
     .logo {
         font-size: 300%;
+    }
+
+    #menu-h2 {
+        font-size: 1.2rem;
+    }
+
+    #menu-h3 {
+        font-size: 1rem;
     }
 }
 
