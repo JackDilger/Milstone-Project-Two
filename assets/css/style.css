@@ -170,6 +170,19 @@ a {
 
 
 /*---------------------------------------------------- media queries*/
+
+@media (max-width: 930px) {
+    .game-container {
+        width: 70%
+    }
+}
+
+@media (max-width: 930px) {
+    .game-container {
+        width: 80%
+    }
+}
+
 @media (max-width: 480px) {
     .menu-controls button {
         width: 150px;
