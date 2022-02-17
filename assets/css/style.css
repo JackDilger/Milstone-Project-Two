@@ -136,16 +136,6 @@ a {
     padding: 30px;
 }
 
-.modal button {
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
-    background-color: #ffcb05;
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-}
 
 .modal p {
     font-size: 1.2rem;
@@ -166,6 +156,16 @@ a {
      -1px 1px 0 #2a75bb,
       1px 1px 0 #2a75bb;
 }
+
+.modal button {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffcb05;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
 }
 
 
