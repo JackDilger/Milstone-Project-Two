@@ -245,20 +245,18 @@ a {
       margin-top: 10px;
       margin-bottom: 10px;
   }
-
-
-  .score-area {
-      display: flex;
-      justify-content: space-around;
-      text-align: center;
-      color: white;
-      font-size: 1.2rem;
-      font-weight: bold;
-      font-family: 'Lato', sans-serif;
-      margin-top: 20px;
-      margin-bottom: 20px;
-  }
   
+  .score-area {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
   
 
