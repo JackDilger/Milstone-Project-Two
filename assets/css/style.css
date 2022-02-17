@@ -108,6 +108,11 @@ a {
     position: fixed;
     opacity: 0;
     pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .modal-container.show {
