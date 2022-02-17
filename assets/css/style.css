@@ -190,8 +190,54 @@ a {
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 50px;
-    margin: 250px 0;
+    margin: 20px 0;
 }
+
+#next-btn {
+    border: 10px solid #262122;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: linear-gradient( 150deg, #BA0C2F 0%, #BA0C2F 48%, #262122 48%, #262122 52%, #FFF 52%, #FFF 100%);
+    display: block;
+    margin: 0 auto;
+    color: #ffcb05;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
+  }
+
+  .next-animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 3;
+    animation-name: shake;
+  }
+  
+  @keyframes shake {
+    from {
+      transform: none;
+    }
+    20% {
+      transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    }
+    40% {
+      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 5deg);
+    }
+    50% {
+      transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    }
+    60% {
+      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 50deg);
+    }
+    to {
+      transform: none;
+    }
+  }
+  
+
+  
 
 
 
