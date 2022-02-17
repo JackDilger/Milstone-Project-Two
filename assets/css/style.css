@@ -171,6 +171,13 @@ a {
 
 /*---------------------------------------------------- media queries*/
 
+@media (max-width: 1050px) {
+    .modal {
+        height: 320px;
+        width: 45%;
+    }
+}
+
 @media (max-width: 930px) {
     .game-container {
         width: 70%
@@ -183,11 +190,33 @@ a {
     }
 }
 
+@media (max-width: 750px) {
+    .modal {
+        height: 350px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 605px) {
+    .modal {
+        height: 400px;
+        width: 55%;
+    }
+}
+
 @media (max-width: 480px) {
     .menu-controls button {
         width: 150px;
     }
 }
+
+@media (max-width: 392px) {
+    .modal {
+        height: 450px;
+        width: 60%;
+    }
+}
+
 
 @media (max-width: 330px) {
     .menu-controls button {
@@ -204,6 +233,13 @@ a {
 
     #menu-h3 {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .modal {
+        height: 60%;
+        width: 65%;
     }
 }
 
