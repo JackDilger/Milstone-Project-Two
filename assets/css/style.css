@@ -86,7 +86,8 @@ a {
     background-color: #ffcb05;
     border-radius: 10px;
     width: 200px;
-    height: 65px
+    height: 65px;
+    box-shadow: 1px 1px 5px #000;
 }
 
 .btn:hover {
@@ -166,6 +167,7 @@ a {
     border-radius: 10px;
     width: 100px;
     height: 40px;
+    box-shadow: 1px 1px 5px #000;
 }
 
 
