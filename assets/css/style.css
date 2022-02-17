@@ -101,7 +101,21 @@ a {
     font-size: 1.5rem;
 }
 
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
 
+.modal {
+    text-align: center;
+    color: black
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #000;
+}
 
 /*---------------------------------------------------- media queries*/
 @media (max-width: 480px) {
