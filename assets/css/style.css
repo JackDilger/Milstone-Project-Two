@@ -106,7 +106,16 @@ a {
     justify-content: center;
     align-items: center;
     position: fixed;
+    opacity: 0;
+    pointer-events: none;
 }
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
 
 .modal {
     text-align: center;
