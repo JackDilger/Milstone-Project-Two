@@ -9,3 +9,11 @@ instructions.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
     modalContainer.classList.remove('show');
 });
+
+
+
+const start = document.getElementById('start-btn');
+
+start.onclick = function() {
+    location.href = "quiz.html";
+};
