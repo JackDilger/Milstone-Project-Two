@@ -61,6 +61,7 @@ a {
     box-shadow: 1px 1px 10px #000;
 }
 
+/*---------------------------------------------------- menu-section*/
 .menu {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -102,6 +103,7 @@ a {
     font-size: 1.5rem;
 }
 
+/*---------------------------------------------------- modal*/
 .modal-container {
     display: flex;
     justify-content: center;
@@ -169,6 +171,26 @@ a {
     height: 40px;
     box-shadow: 1px 1px 5px #000;
 }
+
+/*---------------------------------------------------- quiz question-answer area*/
+.option-btn {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffcb05;
+    border-radius: 10px;
+    width: 250px;
+    height: 65px;
+    box-shadow: 1px 1px 5px #000;
+}
+
+
+
+
+
+
+
 
 
 /*---------------------------------------------------- media queries*/
