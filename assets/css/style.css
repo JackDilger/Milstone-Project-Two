@@ -81,7 +81,7 @@ a {
 .menu-controls button {
     color: black;
     font-size: 20px;
-    font-weight:900
+    font-weight: 900;
     font-family: 'Lato', sans-serif;
     background-color: #ffcb05;
     border-radius: 10px;
@@ -113,6 +113,7 @@ a {
     top: 0;
     width: 100%;
     height: 100%;
+    transition: opacity 0.5s ease;
 }
 
 .modal-container.show {
@@ -124,12 +125,49 @@ a {
 
 .modal {
     text-align: center;
-    color: black
-    width: 50%;
-    height: 500px;
+    background: #2a75bb;
+    width: 40%;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #000;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
 }
+
+.modal button {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffcb05;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.modal p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.modal h1 {
+    margin-top: 25px;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Bangers', cursive;
+    color:#ffcb05;
+    text-shadow:
+    -1px -1px 0 #2a75bb,  
+     1px -1px 0 #2a75bb,
+     -1px 1px 0 #2a75bb,
+      1px 1px 0 #2a75bb;
+}
+}
+
 
 /*---------------------------------------------------- media queries*/
 @media (max-width: 480px) {
