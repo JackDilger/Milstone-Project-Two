@@ -17,7 +17,7 @@ closeModal.addEventListener('click', () => {
     modalContainer.classList.remove('show');
 });
 
-/*---------------------------------------------------- open quiz */
+/*---------------------------------------------------- open quiz question area*/
 start.onclick = function() {
     location.href = "quiz.html";
 };
