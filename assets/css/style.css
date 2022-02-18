@@ -209,6 +209,10 @@ a {
     margin-bottom: 20px;
   }
 
+  #next-btn:hover {
+    box-shadow:  0 0 0 4px #BA0C2F;
+  }
+
   .next-animated {
     animation-duration: 1s;
     animation-fill-mode: both;
