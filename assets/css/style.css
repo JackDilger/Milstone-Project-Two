@@ -131,7 +131,7 @@ a {
     text-align: center;
     background: #2a75bb;
     width: 40%;
-    height: 300px;
+    height: fit-content;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #000;
     justify-content: center;
@@ -269,7 +269,6 @@ a {
 
 @media (max-width: 1050px) {
     .modal {
-        height: 320px;
         width: 45%;
     }
 }
@@ -290,14 +289,12 @@ a {
 
 @media (max-width: 750px) {
     .modal {
-        height: 350px;
         width: 50%;
     }
 }
 
 @media (max-width: 605px) {
     .modal {
-        height: 400px;
         width: 55%;
     }
 }
@@ -313,7 +310,6 @@ a {
 
 @media (max-width: 392px) {
     .modal {
-        height: 450px;
         width: 60%;
     }
     .game-container {
@@ -342,7 +338,6 @@ a {
 
 @media (max-width: 300px) {
     .modal {
-        height: 60%;
         width: 65%;
     }
 }
