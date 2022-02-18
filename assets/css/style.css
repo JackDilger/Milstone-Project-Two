@@ -287,6 +287,22 @@ a {
     }
 }
 
+@media (max-width: 799px) {
+    .button-grid {
+        margin: 30px auto;
+    }
+    .option-btn {
+        height: 60px;
+    }
+    #next-btn {
+        margin-bottom: 10px;
+    }
+    .logo {
+        font-size: 350%;
+    }
+}
+
+
 @media (max-width: 750px) {
     .modal {
         width: 50%;
@@ -339,6 +355,17 @@ a {
 @media (max-width: 300px) {
     .modal {
         width: 65%;
+    }
+    .option-btn {
+        width: 220px;
+        
+    }
+    #next-btn {
+        height: 85px;
+        width: 85px;
+    }
+    .logo {
+        font-size: 250%;
     }
 }
 
