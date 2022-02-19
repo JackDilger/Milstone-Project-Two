@@ -1,5 +1,6 @@
 
 const questionText = document.getElementById('question-text')
+const nextButton = document.getElementById('next-btn')
 const answerButtons = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
@@ -15,6 +16,7 @@ function startQuiz () {
 }
 
 function setNextQuestion () {
+  resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
@@ -30,6 +32,11 @@ function showQuestion (question) {
   button.addEventListener('click', selectAnswer)
   answerButtons.appendChild(button)
   })
+}
+
+function resetState () {
+    nextButton.classList.add('hide')
+    
 }
 
 function selectAnswer (event) {
