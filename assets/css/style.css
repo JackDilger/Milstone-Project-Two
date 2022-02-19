@@ -191,6 +191,10 @@ a {
     box-shadow: 1px 1px 5px #000;
 }
 
+.option-btn:hover {
+    color: white;
+}
+
 .button-grid {
     display: grid;
     grid-template-columns: auto auto;
