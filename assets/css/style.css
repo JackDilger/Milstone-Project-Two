@@ -209,14 +209,18 @@ a {
     height: 100px;
     border-radius: 100%;
     background: linear-gradient( 150deg, #BA0C2F 0%, #BA0C2F 48%, #262122 48%, #262122 52%, #FFF 52%, #FFF 100%);
-    display: block;
-    margin: 0 auto;
     color: #ffcb05;
     font-size: 30px;
     letter-spacing: 4px;
     font-weight: bold;
     font-family: 'Bangers', cursive;
     margin-bottom: 20px;
+  }
+
+  .next-btn-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
   #next-btn:hover {
