@@ -19,9 +19,23 @@ function startQuiz () {
   setNextQuestion()
 }
 
+
 function setNextQuestion () {
   resetState()
+  Timer()
   showQuestion(shuffledQuestions[currentQuestionIndex])
+}
+
+function Timer() {
+  var count = 30;
+  var interval = setInterval(function(){
+  document.getElementById('timer').innerHTML=count;
+  count--;
+    if (count <= 0) {
+      clearInterval(interval);
+      alert("You're out of time!");
+    }
+  }, 1000);
 }
 
 function showQuestion (question) {
