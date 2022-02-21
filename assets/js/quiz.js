@@ -4,6 +4,8 @@ const nextButton = document.getElementById('next-btn')
 const answerButtons = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
+let interval
+
 
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
@@ -22,21 +24,24 @@ function startQuiz () {
 
 function setNextQuestion () {
   resetState()
-  Timer()
+  timer()
   showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
-function Timer() {
-  var count = 30;
-  var interval = setInterval(function(){
-  document.getElementById('timer').innerHTML=count;
+function timer() {
+  let count = 30;
+  clearInterval(interval);
+  document.getElementById('timer').innerHTML= "Sec Left: " + count;
+  interval = setInterval(function(){
   count--;
-    if (count <= 0) {
-      clearInterval(interval);
+  document.getElementById('timer').innerHTML= "Sec Left: " + count;
+    if (count === 0) {
       alert("You're out of time!");
+      clearInterval(interval);
     }
   }, 1000);
 }
+
 
 function showQuestion (question) {
   questionText.innerText = question.question
@@ -69,3 +74,5 @@ function selectAnswer (event) {
   }
   nextButton.classList.remove('hide')
 }
+
+
