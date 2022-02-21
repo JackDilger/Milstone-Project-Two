@@ -44,5 +44,3 @@ function resetState() {
 function selectAnswer (event) {
 
 }
-
-

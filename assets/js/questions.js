@@ -100,21 +100,21 @@ const questions = [{
     ],
   },
   {
-    question: "What planet is known as the red planet?",
+    question: "How many heads does Diglett's evolved form have?",
     answers: [{
-            text: "Mars",
+            text: "3",
             correct: true,
         },
         {
-            text: "Venus",
+            text: "4",
             correct: false,
         },
         {
-            text: "Uranus",
+            text: "5",
             correct: false,
         },
         {
-            text: "Neptune",
+            text: "2",
             correct: false,
         },
     ],
