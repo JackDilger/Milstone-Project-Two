@@ -49,4 +49,5 @@ function selectAnswer (event) {
   } else {
     selectedAnswer.style.backgroundColor = 'red'
   }
+  nextButton.classList.remove('hide')
 }
