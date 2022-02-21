@@ -42,5 +42,11 @@ function resetState() {
 }
 
 function selectAnswer (event) {
-
+  const selectedAnswer = event.target
+  const correct = selectedAnswer.dataset.correct
+  if (correct) {
+    selectedAnswer.style.backgroundColor= 'green'
+  } else {
+    selectedAnswer.style.backgroundColor = 'red'
+  }
 }

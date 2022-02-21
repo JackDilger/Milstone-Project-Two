@@ -185,6 +185,7 @@ a {
     font-weight: 900;
     font-family: 'Lato', sans-serif;
     background-color: #ffcb05;
+    border:5px solid #ffcb05;
     border-radius: 10px;
     width: 275px;
     height: 75px;
