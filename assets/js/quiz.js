@@ -5,6 +5,10 @@ const answerButtons = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++
+  setNextQuestion()
+})
 
 startQuiz();
 
