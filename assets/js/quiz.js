@@ -77,7 +77,13 @@ function selectAnswer (event) {
   } else {
     selectedAnswer.style.backgroundColor = 'red'
   }
-  nextButton.classList.remove('hide')
+
+  if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    nextButton.classList.remove('hide')
+  } else {
+    playAgain.classList.remove("hide");
+  }
+
 }
 
 
