@@ -49,7 +49,16 @@ function timer() {
   countdown.innerHTML= "Sec Left: " + count;
     if (count === 0) {
       alert("You're out of time!");
+      
+      playAgain.classList.remove("hide");
+      playAgain.onclick = function() {
+          location.href = "quiz.html";
+      }
+
+      questionArea.classList.add('hide')
       clearInterval(interval);
+
+
     }
   }, 1000);
 }
