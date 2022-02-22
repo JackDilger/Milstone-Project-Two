@@ -8,7 +8,7 @@ const questionArea = document.getElementById('question-area')
 const endQuizHeading = document.getElementById('end-quiz-heading')
 const totalScore = document.getElementById('total-score')
 const pikachu = document.getElementById('pikachu')
-
+const countdown = document.getElementById('countdown')
 
 
 
@@ -43,17 +43,16 @@ function setNextQuestion () {
 function timer() {
   let count = 30;
   clearInterval(interval);
-  document.getElementById('timer').innerHTML= "Sec Left: " + count;
+  countdown.innerHTML= "Sec Left: " + count;
   interval = setInterval(function(){
   count--;
-  document.getElementById('timer').innerHTML= "Sec Left: " + count;
+  countdown.innerHTML= "Sec Left: " + count;
     if (count === 0) {
       alert("You're out of time!");
       clearInterval(interval);
     }
   }, 1000);
 }
-
 
 function showQuestion (question) {
   questionText.innerText = question.question
@@ -110,7 +109,7 @@ function endQuiz () {
   questionArea.classList.add('hide')
   endQuizHeading.classList.remove('hide')
   pikachu.classList.remove('hide')
-  
+  countdown.classList.add('hide')
 }
 
 
