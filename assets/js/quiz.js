@@ -2,9 +2,11 @@
 const questionText = document.getElementById('question-text')
 const nextButton = document.getElementById('next-btn')
 const answerButtons = document.getElementById('answer-buttons')
+const score = document.getElementById('score')
 
 let shuffledQuestions, currentQuestionIndex
 let interval
+
 
 
 nextButton.addEventListener('click', () => {
@@ -12,12 +14,13 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 })
 
+
 startQuiz();
 
 function startQuiz () {
-  console.log('started')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
+  
   setNextQuestion()
 }
 
@@ -39,6 +42,7 @@ function timer() {
       alert("You're out of time!");
       clearInterval(interval);
     }
+    
   }, 1000);
 }
 
@@ -69,6 +73,7 @@ function selectAnswer (event) {
   const correct = selectedAnswer.dataset.correct
   if (correct) {
     selectedAnswer.style.backgroundColor= 'green'
+    incrementScore()
   } else {
     selectedAnswer.style.backgroundColor = 'red'
   }
@@ -76,3 +81,7 @@ function selectAnswer (event) {
 }
 
 
+function incrementScore() {
+  let currentScore = parseInt(document.getElementById("score").innerText);
+  score.innerText = ++currentScore;
+}
