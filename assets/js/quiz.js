@@ -103,6 +103,7 @@ function selectAnswer (event) {
     playAgain.onclick = function() {
         location.href = "quiz.html";
     }
+    clearInterval(interval);
     endQuiz()
   }
 }
