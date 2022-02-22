@@ -86,12 +86,12 @@ function selectAnswer (event) {
     playAgain.onclick = function() {
         location.href = "quiz.html";
     };
+    endQuiz()
   }
-
 }
-
 
 function incrementScore() {
   let currentScore = parseInt(document.getElementById("score").innerText);
   score.innerText = ++currentScore;
 }
+

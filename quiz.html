@@ -15,7 +15,7 @@
     </header>
 <section class="game-section" >
     <div class="game-container">
-        <div class="score-area">
+        <div class="score-area" id="score-text-area">
             <div id="timer"></div>
             <p id="score-text">Score: <span id="score">0</span></p>
         </div>
@@ -26,6 +26,10 @@
                 <button aria-label="option 1" class="option-btn"></button>
                 <button aria-label="option 1" class="option-btn"></button>
                 <button aria-label="option 1" class="option-btn"></button>
+            </div>
+            <div class="hide" id="end-quiz-container">
+                <h1>Thanks For Playing!</h1>
+                <h2 id="total-score">Your Scored: </h2>
             </div>
             <div class="next-btn-container">
             <button aria-label="Go to the next quiz question" id="next-btn" class="next-animated">Next</button>
