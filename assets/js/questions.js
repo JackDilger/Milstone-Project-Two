@@ -200,7 +200,7 @@ const questions = [{
     ],
   },
   {
-    question: "Which of these Pokemon is the tallest??",
+    question: "Which of these Pokemon is the tallest?",
     answers: [{
             text: "Charizard",
             correct: false,

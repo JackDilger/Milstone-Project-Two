@@ -12,6 +12,7 @@ const pikachu = document.getElementById('pikachu')
 
 
 
+
 let shuffledQuestions, currentQuestionIndex
 let interval
 
@@ -109,6 +110,7 @@ function endQuiz () {
   questionArea.classList.add('hide')
   endQuizHeading.classList.remove('hide')
   pikachu.classList.remove('hide')
+  
 }
 
 
