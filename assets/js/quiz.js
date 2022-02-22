@@ -49,7 +49,7 @@ function timer() {
   count--;
   countdown.innerHTML= "Sec Left: " + count;
     if (count === 0) {
-      alert("You're out of time!");
+      alert("You're too slow! Press play again to restart or click the logo to go back to the menu.");
       
       playAgain.classList.remove("hide");
       playAgain.onclick = function() {
