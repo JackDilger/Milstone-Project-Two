@@ -154,11 +154,6 @@ a {
     font-weight: 900;
     font-family: 'Bangers', cursive;
     color:#ffcb05;
-    text-shadow:
-    -1px -1px 0 #2a75bb,  
-     1px -1px 0 #2a75bb,
-     -1px 1px 0 #2a75bb,
-      1px 1px 0 #2a75bb;
 }
 
 .modal button {
