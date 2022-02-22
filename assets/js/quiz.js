@@ -5,6 +5,8 @@ const answerButtons = document.getElementById('answer-buttons')
 const score = document.getElementById('score')
 const playAgain = document.getElementById('play-again-btn')
 const questionArea = document.getElementById('question-area')
+const endQuizHeading = document.getElementById('end-quiz-heading')
+const totalScore = document.getElementById('total-score')
 
 
 
@@ -47,7 +49,6 @@ function timer() {
       alert("You're out of time!");
       clearInterval(interval);
     }
-    
   }, 1000);
 }
 
@@ -99,8 +100,14 @@ function incrementScore() {
   score.innerText = ++currentScore;
 }
 
+function timeOut () {
+  questionArea.classList.add('hide')
+}
+
 function endQuiz () {
   questionArea.classList.add('hide')
+  endQuizHeading.classList.remove('hide')
+  totalScore.classList.remove('hide')
 }
 
 
