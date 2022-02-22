@@ -4,6 +4,7 @@ const nextButton = document.getElementById('next-btn')
 const answerButtons = document.getElementById('answer-buttons')
 const score = document.getElementById('score')
 const playAgain = document.getElementById('play-again-btn')
+const questionArea = document.getElementById('question-area')
 
 
 
@@ -89,12 +90,17 @@ function selectAnswer (event) {
     playAgain.onclick = function() {
         location.href = "quiz.html";
     }
+    endQuiz()
   }
 }
 
 function incrementScore() {
   let currentScore = parseInt(document.getElementById("score").innerText);
   score.innerText = ++currentScore;
+}
+
+function endQuiz () {
+  questionArea.classList.add('hide')
 }
 
 
