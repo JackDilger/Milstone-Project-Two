@@ -5,6 +5,9 @@ const answerButtons = document.getElementById('answer-buttons')
 const score = document.getElementById('score')
 const playAgain = document.getElementById('play-again-btn')
 
+
+
+
 let shuffledQuestions, currentQuestionIndex
 let interval
 
@@ -85,8 +88,7 @@ function selectAnswer (event) {
     playAgain.classList.remove("hide");
     playAgain.onclick = function() {
         location.href = "quiz.html";
-    };
-    endQuiz()
+    }
   }
 }
 
@@ -94,4 +96,9 @@ function incrementScore() {
   let currentScore = parseInt(document.getElementById("score").innerText);
   score.innerText = ++currentScore;
 }
+
+
+
+
+
 
