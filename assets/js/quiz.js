@@ -8,6 +8,7 @@ const questionArea = document.getElementById('question-area')
 const endQuizHeading = document.getElementById('end-quiz-heading')
 const totalScore = document.getElementById('total-score')
 const pikachu = document.getElementById('pikachu')
+const gengar = document.getElementById('gengar')
 const countdown = document.getElementById('countdown')
 
 
@@ -54,7 +55,8 @@ function timer() {
       playAgain.onclick = function() {
           location.href = "quiz.html";
       }
-
+      
+      gengar.classList.remove('hide')
       questionArea.classList.add('hide')
       clearInterval(interval);
 
