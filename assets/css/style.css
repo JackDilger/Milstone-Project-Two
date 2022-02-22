@@ -321,6 +321,12 @@ a {
     color: white;
 }
 
+.end-quiz-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*---------------------------------------------------- media queries*/
 
 @media (max-width: 1050px) {

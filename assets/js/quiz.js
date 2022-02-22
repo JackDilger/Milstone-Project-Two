@@ -7,6 +7,7 @@ const playAgain = document.getElementById('play-again-btn')
 const questionArea = document.getElementById('question-area')
 const endQuizHeading = document.getElementById('end-quiz-heading')
 const totalScore = document.getElementById('total-score')
+const pikachu = document.getElementById('pikachu')
 
 
 
@@ -107,7 +108,7 @@ function timeOut () {
 function endQuiz () {
   questionArea.classList.add('hide')
   endQuizHeading.classList.remove('hide')
-  totalScore.classList.remove('hide')
+  pikachu.classList.remove('hide')
 }
 
 
