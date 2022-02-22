@@ -282,7 +282,7 @@ a {
     margin-bottom: 20px;
 }
 
-#restart-btn {
+#play-again-btn {
     color: black;
     font-size: 20px;
     font-weight: 900;
@@ -295,13 +295,13 @@ a {
     margin-bottom: 50px;
 }
 
-.restart-btn-container {
+.play-again-btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#restart-btn:hover {
+#play-again-btn:hover {
     color: white;
 }
 

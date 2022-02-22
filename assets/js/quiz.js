@@ -3,6 +3,7 @@ const questionText = document.getElementById('question-text')
 const nextButton = document.getElementById('next-btn')
 const answerButtons = document.getElementById('answer-buttons')
 const score = document.getElementById('score')
+const playAgain = document.getElementById('play-again-btn')
 
 let shuffledQuestions, currentQuestionIndex
 let interval
@@ -82,6 +83,9 @@ function selectAnswer (event) {
     nextButton.classList.remove('hide')
   } else {
     playAgain.classList.remove("hide");
+    playAgain.onclick = function() {
+        location.href = "quiz.html";
+    };
   }
 
 }
