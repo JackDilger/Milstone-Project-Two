@@ -12,6 +12,9 @@ const prize = document.getElementById('prize-btn')
 const prizemodalContainer = document.getElementById('prize-modal-container');
 const closePrizeModal = document.getElementById('close-prize-modal-btn');
 
+const submitFormBtn = document.getElementById('submit-form-btn')
+const prizeForm = document.getElementById('prize-form')
+
 
 // Open quiz question area
 start.onclick = function() {
