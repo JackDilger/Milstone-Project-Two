@@ -81,10 +81,12 @@ function showQuestion (question) {
 
 function resetState() {
   nextButton.classList.add('hide')
+  answerButtons.classList.remove('disable')
   while (answerButtons.firstChild) {
     answerButtons.removeChild(answerButtons.firstChild)
   }
 }
+
 
 function selectAnswer (event) {
   const selectedAnswer = event.target
@@ -95,6 +97,7 @@ function selectAnswer (event) {
   } else {
     selectedAnswer.style.backgroundColor = 'red'
   }
+  answerButtons.classList.add('disable')
 
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
