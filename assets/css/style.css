@@ -160,6 +160,10 @@ a {
     width: 100px;
     height: 40px;
     box-shadow: 1px 1px 5px #000;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*---------------------------------------- Prize draw modal*/
