@@ -165,6 +165,27 @@ a {
     box-shadow: 1px 1px 5px #000;
 }
 
+/*---------------------------------------- Prize draw modal*/
+.prize-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.prize-modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
 /*------------------------------------------- quiz question-answer area*/
 
 .hide {
