@@ -200,7 +200,7 @@ a {
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 50px;
-    margin: 45px 0;
+    margin: 40px 0;
 }
 
 #next-btn {
@@ -214,7 +214,6 @@ a {
     letter-spacing: 4px;
     font-weight: bold;
     font-family: 'Bangers', cursive;
-    margin-bottom: 20px;
   }
 
   .next-btn-container {
@@ -346,13 +345,11 @@ a {
 
 @media (max-width: 799px) {
     .button-grid {
-        margin: 30px auto;
+        margin: 25px auto;
     }
     .option-btn {
-        height: 60px;
-    }
-    #next-btn {
-        margin-bottom: 10px;
+        height: 50px;
+        font-size: 19px;
     }
     .logo {
         font-size: 350%;
