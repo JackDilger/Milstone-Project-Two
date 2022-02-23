@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Quiz</title>
-
+    <!-- Link to style sheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <!-- Favicon install --> 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple.touch.icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon.32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon.16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
-
 </head>
 <body class="background">
+    <!-- Header logo -->
     <header>
         <a href="index.html" aria-label="Link back to the homepage of the Pokemon Quiz">
             <h1 class="logo">Pok&egrave;mon Quiz</h1>
         </a>
     </header>
+<!-- Game section -->     
 <section class="game-section" >
     <div class="game-container">
+        <!-- Countdown clock and score area --> 
         <div class="score-area">
             <div id="countdown"></div>
             <p id="score-text">Score: <span id="score">0</span></p>
         </div>
+        <!-- Answers and questions for quiz game --> 
         <div id="question-area">
             <div id="question-text"></div>
             <div class="button-grid" id="answer-buttons">
@@ -34,28 +37,32 @@
                 <button aria-label="option 1" class="option-btn"></button>
                 <button aria-label="option 1" class="option-btn"></button>
             </div>
+            <!-- Next button, hidden until the player selects an answer--> 
             <div class="next-btn-container">
             <button aria-label="Go to the next quiz question" id="next-btn" class="next-animated">Next</button>
             </div>
         </div>
-
-        
+        <!-- End quiz heading --> 
         <div class="end-quiz-container">
             <h1 class="hide" id="end-quiz-heading">Thanks For Playing!</h1>
         </div>
         <br>
+        <!-- End quiz heading and image, hidden until all answers are selected --> 
         <div class="end-quiz-img">
             <img id="pikachu" class="hide" alt="Pikachu Pokemon smiling" src="assets/images/pikachu.jpg">
         </div>
-        <div class="end-quiz-img">
+        <!--  Play again image, shows if a user lets the timer run down--> 
+        <div class="play-again-quiz-img">
             <img id="gengar" class="hide" alt="Gengar POkemon grinning" src="assets/images/gengar.jpg">
         </div>
         <br>
+        <!-- Play again button, shows when the user answers all questions or lets the timer run down --> 
         <div class="play-again-btn-container">
             <button class="hide" id="play-again-btn" aria-label="Play the quiz again from the begining">Play Again</button>
         </div>
     </div>
 </section>
+ <!-- Javascript scripts for quiz and questions --> 
 <script src="assets/js/questions.js"></script>
     <script src="assets/js/quiz.js"></script>
 </body>
