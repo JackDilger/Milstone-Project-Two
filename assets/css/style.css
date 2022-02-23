@@ -131,8 +131,6 @@ a {
     height: fit-content;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #000;
-    justify-content: center;
-    align-items: center;
     color: white;
     padding: 30px;
 }
@@ -165,8 +163,10 @@ a {
 }
 
 /*---------------------------------------- Prize draw modal*/
+
 .prize-modal-container {
     display: flex;
+    
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -183,6 +183,11 @@ a {
 .prize-modal-container.show {
     pointer-events: auto;
     opacity: 1;
+}
+
+.prize-form {
+    padding: 10px;
+    display: grid;
 }
 
 /*------------------------------------------- quiz question-answer area*/
