@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@100&display=swap');
 
-/*----------------------------------------------------general layout*/
+/*----------------------------------------------------general layout*/ 
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-
 /*----------------------------------------------------header*/
 .logo {
     padding-top: 30px;
     text-align: center;
     text-transform: uppercase;
-    color:#ffcb05;
+    color: #ffcb05;
     text-shadow:
-    -1px -1px 0 #2a75bb,  
-     1px -1px 0 #2a75bb,
-     -1px 1px 0 #2a75bb,
-      1px 1px 0 #2a75bb;
+        -1px -1px 0 #2a75bb,
+        1px -1px 0 #2a75bb,
+        -1px 1px 0 #2a75bb,
+        1px 1px 0 #2a75bb;
     text-decoration: none;
     font-size: 400%;
 }
@@ -69,7 +68,6 @@ a {
     color: white;
     padding: 20px;
 }
-
 
 .menu-controls {
     display: grid;
@@ -135,19 +133,17 @@ a {
     padding: 30px;
 }
 
-
 .modal p {
     font-weight: bold;
     font-family: 'Lato', sans-serif;
 }
-
 
 .modal h1 {
     font-size: 2rem;
     letter-spacing: 1.5px;
     font-weight: 900;
     font-family: 'Bangers', cursive;
-    color:#ffcb05;
+    color: #ffcb05;
 }
 
 .modal button {
@@ -170,7 +166,7 @@ a {
 
 .prize-modal-container {
     display: flex;
-    
+
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -204,7 +200,7 @@ a {
 
 #form-label {
     letter-spacing: 1px;
-    color:#ffcb05
+    color: #ffcb05
 }
 
 #prize-form-complete {
@@ -216,7 +212,7 @@ a {
 
 .hide {
     display: none;
-  }
+}
 
 .disable {
     pointer-events: none;
@@ -228,7 +224,7 @@ a {
     font-weight: 900;
     font-family: 'Lato', sans-serif;
     background-color: #ffcb05;
-    border:5px solid #ffcb05;
+    border: 5px solid #ffcb05;
     border-radius: 10px;
     width: 275px;
     height: 75px;
@@ -252,63 +248,68 @@ a {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background: linear-gradient( 150deg, #BA0C2F 0%, #BA0C2F 48%, #262122 48%, #262122 52%, #FFF 52%, #FFF 100%);
+    background: linear-gradient(150deg, #BA0C2F 0%, #BA0C2F 48%, #262122 48%, #262122 52%, #FFF 52%, #FFF 100%);
     color: #ffcb05;
     font-size: 30px;
     letter-spacing: 4px;
     font-weight: bold;
     font-family: 'Bangers', cursive;
-  }
+}
 
-  .next-btn-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.next-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  #next-btn:hover {
-    box-shadow:  0 0 0 4px #BA0C2F;
-  }
+#next-btn:hover {
+    box-shadow: 0 0 0 4px #BA0C2F;
+}
 
-  .next-animated {
+.next-animated {
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: 3;
     animation-name: shake;
-  }
-  
-  @keyframes shake {
-    from {
-      transform: none;
-    }
-    20% {
-      transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
-    }
-    40% {
-      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 5deg);
-    }
-    50% {
-      transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -10deg);
-    }
-    60% {
-      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 50deg);
-    }
-    to {
-      transform: none;
-    }
-  }
+}
 
-  #question-text {
-      text-align: center;
-      color: white;
-      font-size: 1.2rem;
-      font-weight: bold;
-      font-family: 'Lato', sans-serif;
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
-  
-  .score-area {
+@keyframes shake {
+    from {
+        transform: none;
+    }
+
+    20% {
+        transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    }
+
+    40% {
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 5deg);
+    }
+
+    50% {
+        transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 50deg);
+    }
+
+    to {
+        transform: none;
+    }
+}
+
+#question-text {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.score-area {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -319,7 +320,6 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
 /*---------------------------------------------- End quiz/Play again*/
 #play-again-btn {
@@ -399,10 +399,12 @@ a {
     .button-grid {
         margin: 25px auto;
     }
+
     .option-btn {
         height: 50px;
         font-size: 19px;
     }
+
     .logo {
         font-size: 350%;
     }
@@ -425,6 +427,7 @@ a {
     .menu-controls button {
         width: 150px;
     }
+
     .game-container {
         width: 80%
     }
@@ -434,20 +437,22 @@ a {
     .modal {
         width: 60%;
     }
+
     .game-container {
         width: 90%
     }
+
     .modal h1 {
         font-size: 1.7rem;
     }
 }
-
 
 @media (max-width: 330px) {
     .menu-controls button {
         width: 100px;
         font-size: 15px;
     }
+
     .logo {
         font-size: 300%;
     }
@@ -465,20 +470,18 @@ a {
     .modal {
         width: 65%;
     }
+
     .option-btn {
         width: 220px;
-        
+
     }
+
     #next-btn {
         height: 85px;
         width: 85px;
     }
+
     .logo {
         font-size: 250%;
     }
 }
-
-
-
-
-

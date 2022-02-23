@@ -59,6 +59,7 @@ submitFormBtn.onclick = function() {
 /**
  * Function to validate form fields
  * Displays alert if required fields are not filled out
+ * Hides form once submiited and gives feedback to the user
  * Amended from w3schools- See README.md credit section
  */
 function validateForm () {
