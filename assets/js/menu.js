@@ -43,3 +43,11 @@ prize.addEventListener('click', () => {
 closePrizeModal.addEventListener('click', () => {
     prizemodalContainer.classList.remove('show');
 });
+
+function validateForm() {
+    let inputs = prizeForm.elements["full-name"]["email-address"]["answer"].value;
+    if (inputs == "") {
+      alert("All input fields are required");
+      return false;
+    }
+  }
