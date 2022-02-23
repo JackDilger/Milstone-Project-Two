@@ -207,6 +207,11 @@ a {
     color:#ffcb05
 }
 
+#prize-form-complete {
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
 /*------------------------------------------- quiz question-answer area*/
 
 .hide {
