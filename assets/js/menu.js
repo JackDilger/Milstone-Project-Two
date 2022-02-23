@@ -13,7 +13,8 @@ const prizemodalContainer = document.getElementById('prize-modal-container');
 const closePrizeModal = document.getElementById('close-prize-modal-btn');
 
 const submitFormBtn = document.getElementById('submit-form-btn');
-let prizeForm = document.getElementById('prize-form');
+const prizeForm = document.getElementById('prize-form');
+const formInfoText = document.getElementById('form-info-text')
 let fullName;
 let email;
 let answer;
@@ -48,11 +49,17 @@ closePrizeModal.addEventListener('click', () => {
     prizemodalContainer.classList.remove('show');
 });
 
+// Calls validateForm function once form is submitted
 submitFormBtn.onclick = function() {
     validateForm()
 };
 
 
+/**
+ * Function to validate form fields
+ * Displays alert if required fields are not filled out
+ * Amended from w3schools- See README.md credit section
+ */
 function validateForm () {
     fullName = prizeForm.elements["full-name"].value
     email = prizeForm.elements["email-address"].value
@@ -71,7 +78,10 @@ function validateForm () {
         alert("Answer must be filled out");
         return false;
     }
-    console.log('sent')
+    submitFormBtn.classList.add('hide')
+    prizeForm.classList.add('hide')
+    formInfoText.classList.add('hide')
+    
 }
 
   
