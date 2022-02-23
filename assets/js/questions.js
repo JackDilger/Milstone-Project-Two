@@ -1,3 +1,5 @@
+
+// Quiz questions array
 const questions = [{
     question: "What color are Raichu's cheeks?",
     answers: [{
