@@ -15,6 +15,7 @@ const closePrizeModal = document.getElementById('close-prize-modal-btn');
 const submitFormBtn = document.getElementById('submit-form-btn');
 const prizeForm = document.getElementById('prize-form');
 const formInfoText = document.getElementById('form-info-text')
+const prizeformComplete = document.getElementById('prize-form-complete')
 let fullName;
 let email;
 let answer;
@@ -81,7 +82,11 @@ function validateForm () {
     submitFormBtn.classList.add('hide')
     prizeForm.classList.add('hide')
     formInfoText.classList.add('hide')
-    
+
+    prizeformComplete.innerHTML = ` <h1> Thanks for completing our quiz ${fullName}!
+    <br>
+    Best of luck in the prize draw!
+    </h1>`
 }
 
   
