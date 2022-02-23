@@ -75,8 +75,7 @@ a {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    gap: 50px;
+    padding-top: 30px;
 }
 
 .menu-controls button {
@@ -89,7 +88,7 @@ a {
     width: 200px;
     height: 65px;
     box-shadow: 1px 1px 5px #000;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .btn:hover {
@@ -104,7 +103,7 @@ a {
     font-size: 1.5rem;
 }
 
-/*---------------------------------------------------- modal*/
+/*------------------------------------------------- Instrcutions modal*/
 .modal-container {
     display: flex;
     justify-content: center;
@@ -124,8 +123,6 @@ a {
     pointer-events: auto;
     opacity: 1;
 }
-
-
 
 .modal {
     text-align: center;
@@ -168,7 +165,7 @@ a {
     box-shadow: 1px 1px 5px #000;
 }
 
-/*---------------------------------------------------- quiz question-answer area*/
+/*------------------------------------------- quiz question-answer area*/
 
 .hide {
     display: none;
@@ -276,6 +273,8 @@ a {
     margin-bottom: 20px;
 }
 
+
+/*---------------------------------------------- End quiz/Play again*/
 #play-again-btn {
     color: black;
     font-size: 20px;
