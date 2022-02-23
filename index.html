@@ -56,6 +56,7 @@
 
     <div id="prize-modal-container" class="prize-modal-container">
         <div class="modal">
+            <div id="form-info-text">
             <h1>Win a copy of Pokémon Legends Arceus!</h1>
             <br>
             <p>Complete the quiz to view an image of a Pokémon!</p>
@@ -63,15 +64,16 @@
             <p>Simply enter the Pokémon name below along with your details to be in of a chance of winning.</p>
             <br>
             <p>Winner anounced 30/02/2022</p>
+           </div>
             
             
-            <form autocomplete="off" action="https://formdump.codeinstitute.net/" method="Post" class="prize-form" id="prize-form">
+            <form name="prize-form" autocomplete="off" action="https://formdump.codeinstitute.net/" method="Post" class="prize-form" id="prize-form">
                 <label id="form-label" for="name">Name</label>
-                <input autocomplete="off" type="text" id="name" name="full-name" class="form-input" placeholder="Full Name" required />
+                <input autocomplete="off" type="text" id="name" name="full-name" class="form-input" placeholder="Full Name" required/>
                 <label id="form-label" for="email">Email Address</label>
-                <input autocomplete="off" type="email" id="email" name="email-address" class="form-input" placeholder="Email Address" required />
+                <input autocomplete="off" type="email" id="email" name="email-address" class="form-input" placeholder="Email Address" required/>
                 <label id="form-label" for="answer">Answer</label>
-                <textarea autocomplete="off" class="form-input" name="answer" id="answer"placeholder="Whos that Pokémon? "></textarea>
+                <textarea autocomplete="off" class="form-input" name="answer" id="answer" placeholder="Whos that Pokémon?" required></textarea>
             </form>
 
             <button id="submit-form-btn" class="btn" aria-label="Submit form" type="submit" id="submit-button">

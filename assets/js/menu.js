@@ -8,12 +8,16 @@ const instructions = document.getElementById('instruction-btn');
 const modalContainer = document.getElementById('modal-container');
 const closeModal = document.getElementById('close-modal-btn');
 const start = document.getElementById('start-btn');
-const prize = document.getElementById('prize-btn')
+const prizeButton = document.getElementById('prize-btn')
 const prizemodalContainer = document.getElementById('prize-modal-container');
 const closePrizeModal = document.getElementById('close-prize-modal-btn');
 
-const submitFormBtn = document.getElementById('submit-form-btn')
-const prizeForm = document.getElementById('prize-form')
+const submitFormBtn = document.getElementById('submit-form-btn');
+let prizeForm = document.getElementById('prize-form');
+let fullName;
+let email;
+let answer;
+
 
 
 // Open quiz question area
@@ -34,7 +38,7 @@ closeModal.addEventListener('click', () => {
 
 
 // Show prize modal 
-prize.addEventListener('click', () => {
+prizeButton.addEventListener('click', () => {
     prizemodalContainer.classList.add('show');
 });
 
@@ -44,10 +48,30 @@ closePrizeModal.addEventListener('click', () => {
     prizemodalContainer.classList.remove('show');
 });
 
-function validateForm() {
-    let inputs = prizeForm.elements["full-name"]["email-address"]["answer"].value;
-    if (inputs == "") {
-      alert("All input fields are required");
-      return false;
+submitFormBtn.onclick = function() {
+    validateForm()
+};
+
+
+function validateForm () {
+    fullName = prizeForm.elements["full-name"].value
+    email = prizeForm.elements["email-address"].value
+    answer = prizeForm.elements["answer"].value
+    if (fullName == "") {
+        alert("Full name must be filled out");
+        return false;
     }
-  }
+
+    if (email == "") {
+        alert("email must be filled out");
+        return false;
+    }
+
+    if (answer == "") {
+        alert("Answer must be filled out");
+        return false;
+    }
+    console.log('sent')
+}
+
+  
