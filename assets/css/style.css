@@ -198,6 +198,10 @@ a {
     margin-bottom: 3px;
 }
 
+#form-label {
+    letter-spacing: 1px;
+    color:#ffcb05
+}
 
 /*------------------------------------------- quiz question-answer area*/
 
