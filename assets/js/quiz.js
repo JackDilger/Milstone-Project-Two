@@ -5,27 +5,27 @@
 
 
 // Declared const variables
-const questionText = document.getElementById('question-text')
-const nextButton = document.getElementById('next-btn')
-const answerButtons = document.getElementById('answer-buttons')
-const score = document.getElementById('score')
-const playAgain = document.getElementById('play-again-btn')
-const questionArea = document.getElementById('question-area')
-const endQuizHeading = document.getElementById('end-quiz-heading')
-const totalScore = document.getElementById('total-score')
-const pikachu = document.getElementById('pikachu')
-const gengar = document.getElementById('gengar')
-const countdown = document.getElementById('countdown')
+const questionText = document.getElementById('question-text');
+const nextButton = document.getElementById('next-btn');
+const answerButtons = document.getElementById('answer-buttons');
+const score = document.getElementById('score');
+const playAgain = document.getElementById('play-again-btn');
+const questionArea = document.getElementById('question-area');
+const endQuizHeading = document.getElementById('end-quiz-heading');
+const totalScore = document.getElementById('total-score');
+const pikachu = document.getElementById('pikachu');
+const gengar = document.getElementById('gengar');
+const countdown = document.getElementById('countdown');
 
 // Declared let variables
 let shuffledQuestions, currentQuestionIndex
-let interval
+let interval;
 
 
 // Increments currentQuestionIndex when next button is clicked
 nextButton.addEventListener('click', () => {
-  currentQuestionIndex++
-  setNextQuestion()
+    currentQuestionIndex++
+    setNextQuestion()
 })
 
 // Calls start quiz function
@@ -36,10 +36,10 @@ startQuiz();
  * Shuffles the questions array
  * Calls the setNextQuestion function
  */
-function startQuiz () {
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
-  currentQuestionIndex = 0
-  setNextQuestion()
+function startQuiz() {
+    shuffledQuestions = questions.sort(() => Math.random() - .5)
+    currentQuestionIndex = 0
+    setNextQuestion()
 }
 
 /**
@@ -47,10 +47,10 @@ function startQuiz () {
  * Calls the timer function
  * Shows the shuffled question
  */
-function setNextQuestion () {
-  resetState()
-  timer()
-  showQuestion(shuffledQuestions[currentQuestionIndex])
+function setNextQuestion() {
+    resetState()
+    timer()
+    showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 /**
@@ -59,52 +59,52 @@ function setNextQuestion () {
  * Hides quetsion area and displays play again screen
  */
 function timer() {
-  let count = 30;
-  clearInterval(interval);
-  countdown.innerHTML= "Sec Left: " + count;
-  interval = setInterval(function(){
-  count--;
-  countdown.innerHTML= "Sec Left: " + count;
-    if (count === 0) {
-      alert("You're too slow! Press play again to restart or click the logo to go back to the menu.");
-      playAgain.classList.remove("hide");
-      playAgain.onclick = function() {
-          location.href = "quiz.html";
-      }
-      gengar.classList.remove('hide')
-      questionArea.classList.add('hide')
-      clearInterval(interval);
-    }
-  }, 1000);
+    let count = 30;
+    clearInterval(interval);
+    countdown.innerHTML = "Sec Left: " + count;
+    interval = setInterval(function () {
+        count--;
+        countdown.innerHTML = "Sec Left: " + count;
+        if (count === 0) {
+            alert("You're too slow! Press play again to restart or click the logo to go back to the menu.");
+            playAgain.classList.remove("hide");
+            playAgain.onclick = function () {
+                location.href = "quiz.html";
+            }
+            gengar.classList.remove('hide')
+            questionArea.classList.add('hide')
+            clearInterval(interval);
+        }
+    }, 1000);
 }
 
 
 /**
  * Function to show question and answers
  */
-function showQuestion (question) {
-  questionText.innerText = question.question
-  question.answers.forEach(answer => {
-  const button = document.createElement('button')
-  button.innerText = answer.text
-  button.classList.add('option-btn')
-  if (answer.correct) {
-    button.dataset.correct = answer.correct
-  }
-  button.addEventListener('click', selectAnswer)
-  answerButtons.appendChild(button)
-  })
+function showQuestion(question) {
+    questionText.innerText = question.question
+    question.answers.forEach(answer => {
+        const button = document.createElement('button')
+        button.innerText = answer.text
+        button.classList.add('option-btn')
+        if (answer.correct) {
+            button.dataset.correct = answer.correct
+        }
+        button.addEventListener('click', selectAnswer)
+        answerButtons.appendChild(button)
+    })
 }
 
 /**
  * Function resets question and answer section to default state
  */
 function resetState() {
-  nextButton.classList.add('hide')
-  answerButtons.classList.remove('disable')
-  while (answerButtons.firstChild) {
-    answerButtons.removeChild(answerButtons.firstChild)
-  }
+    nextButton.classList.add('hide')
+    answerButtons.classList.remove('disable')
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild)
+    }
 }
 
 
@@ -114,51 +114,51 @@ function resetState() {
  * Sets background color of answer button to red on incorrect answer
  * Disables answer buttons after the user selects first answer
  */
-function selectAnswer (event) {
-  const selectedAnswer = event.target
-  const correct = selectedAnswer.dataset.correct
-  if (correct) {
-    selectedAnswer.style.backgroundColor= 'green'
-    incrementScore()
-  } else {
-    selectedAnswer.style.backgroundColor = 'red'
-  }
-  answerButtons.classList.add('disable')
-  
-  /**
- * Checks to see if the user has answered the last question
- * If so shows play again button
- * Calls endQuiz function and clears timer
- */
-  if (shuffledQuestions.length > currentQuestionIndex + 1) {
-    nextButton.classList.remove('hide')
-  } else {
-    playAgain.classList.remove("hide");
-    playAgain.onclick = function() {
-        location.href = "quiz.html";
+function selectAnswer(event) {
+    const selectedAnswer = event.target
+    const correct = selectedAnswer.dataset.correct
+    if (correct) {
+        selectedAnswer.style.backgroundColor = 'green'
+        incrementScore()
+    } else {
+        selectedAnswer.style.backgroundColor = 'red'
     }
-    clearInterval(interval);
-    endQuiz()
-  }
+    answerButtons.classList.add('disable')
+
+    /**
+     * Checks to see if the user has answered the last question
+     * If so shows play again button
+     * Calls endQuiz function and clears timer
+     */
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+        nextButton.classList.remove('hide')
+    } else {
+        playAgain.classList.remove("hide");
+        playAgain.onclick = function () {
+            location.href = "quiz.html";
+        }
+        clearInterval(interval);
+        endQuiz()
+    }
 }
 
 // Function to increment score counter by 1
 function incrementScore() {
-  let currentScore = parseInt(document.getElementById("score").innerText);
-  score.innerText = ++currentScore;
+    let currentScore = parseInt(document.getElementById("score").innerText);
+    score.innerText = ++currentScore;
 }
 
 
- /**
+/**
  * Function to end the quiz
  * Hides main quiz area
  * Displays end quiz image and header
  */
-function endQuiz () {
-  questionArea.classList.add('hide')
-  endQuizHeading.classList.remove('hide')
-  pikachu.classList.remove('hide')
-  countdown.classList.add('hide')
+function endQuiz() {
+    questionArea.classList.add('hide')
+    endQuizHeading.classList.remove('hide')
+    pikachu.classList.remove('hide')
+    countdown.classList.add('hide')
 }
 
 

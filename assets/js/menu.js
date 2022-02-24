@@ -3,19 +3,19 @@
  * see REAMDME.md credit section
  */
 
-// Declared variables
+// Declared const variables
 const instructions = document.getElementById('instruction-btn');
 const modalContainer = document.getElementById('modal-container');
 const closeModal = document.getElementById('close-modal-btn');
 const start = document.getElementById('start-btn');
-const prizeButton = document.getElementById('prize-btn')
+const prizeButton = document.getElementById('prize-btn');
 const prizemodalContainer = document.getElementById('prize-modal-container');
 const closePrizeModal = document.getElementById('close-prize-modal-btn');
-
 const submitFormBtn = document.getElementById('submit-form-btn');
 const prizeForm = document.getElementById('prize-form');
-const formInfoText = document.getElementById('form-info-text')
-const prizeformComplete = document.getElementById('prize-form-complete')
+const formInfoText = document.getElementById('form-info-text');
+const prizeformComplete = document.getElementById('prize-form-complete');
+// Declared let variables
 let fullName;
 let email;
 let answer;
@@ -23,7 +23,7 @@ let answer;
 
 
 // Open quiz question area
-start.onclick = function() {
+start.onclick = function () {
     location.href = "quiz.html";
 };
 
@@ -51,7 +51,7 @@ closePrizeModal.addEventListener('click', () => {
 });
 
 // Calls validateForm function once form is submitted
-submitFormBtn.onclick = function() {
+submitFormBtn.onclick = function () {
     validateForm()
 };
 
@@ -62,7 +62,7 @@ submitFormBtn.onclick = function() {
  * Hides form once submiited and gives feedback to the user
  * Amended from w3schools- See README.md credit section
  */
-function validateForm () {
+function validateForm() {
     fullName = prizeForm.elements["full-name"].value
     email = prizeForm.elements["email-address"].value
     answer = prizeForm.elements["answer"].value
@@ -89,5 +89,4 @@ function validateForm () {
     Best of luck in the prize draw!
     </h1>`
 }
-
   
