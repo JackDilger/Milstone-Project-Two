@@ -1,4 +1,3 @@
-
 // Quiz questions array
 const questions = [{
     question: "What color are Raichu's cheeks?",
@@ -19,8 +18,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "What year was the first pokemon game released",
     answers: [{
             text: "1996",
@@ -39,8 +38,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "How many types of Pokemon are there?",
     answers: [{
             text: "21",
@@ -59,8 +58,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "How many Gym Badges must a trainer collect before challenging the Elite Four?",
     answers: [{
             text: "9",
@@ -79,9 +78,9 @@ const questions = [{
             correct: true,
         },
     ],
-  },
-  
-  {
+},
+
+{
     question: "What is HM07?",
     answers: [{
             text: "Rock Smash",
@@ -100,8 +99,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "How many heads does Diglett's evolved form have?",
     answers: [{
             text: "3",
@@ -120,8 +119,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "What Pokemon can be resurrected from the Old Amber?",
     answers: [{
             text: "Aerodactly",
@@ -140,8 +139,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "Who was the leader of Team Rocket?",
     answers: [{
             text: "Geovanni",
@@ -160,8 +159,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "What type of Pokemon does Gym Leader Erika specialize in?",
     answers: [{
             text: "Water",
@@ -180,8 +179,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "What types is Charizard listed as?",
     answers: [{
             text: "Fire & Dragon",
@@ -200,8 +199,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "Which of these Pokemon is the tallest?",
     answers: [{
             text: "Charizard",
@@ -220,8 +219,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "Who is #100 on the Pokedex?",
     answers: [{
             text: "Mewtwo",
@@ -240,8 +239,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "What is the best selling Pokemon game ever?",
     answers: [{
             text: "Pokemon Red & Blue",
@@ -260,8 +259,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "Which is the most common type of Pokemon?",
     answers: [{
             text: "Ground",
@@ -280,8 +279,8 @@ const questions = [{
             correct: false,
         },
     ],
-  },
-  {
+},
+{
     question: "What is the name of the Pokemon which was Ash Ketchum’s first catch?",
     answers: [{
             text: "Pikachu",
@@ -300,5 +299,5 @@ const questions = [{
             correct: true,
         },
     ],
-  },
-  ];
+},
+];
