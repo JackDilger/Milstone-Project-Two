@@ -20,8 +20,6 @@ let fullName;
 let email;
 let answer;
 
-
-
 // Open quiz question area
 start.onclick = function () {
     location.href = "quiz.html";
@@ -37,7 +35,6 @@ instructions.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
     modalContainer.classList.remove('show');
 });
-
 
 // Show prize modal 
 prizeButton.addEventListener('click', () => {
@@ -55,7 +52,6 @@ submitFormBtn.onclick = function () {
     validateForm()
 };
 
-
 /**
  * Function to validate form fields
  * Displays alert if required fields are not filled out
@@ -72,7 +68,7 @@ function validateForm() {
     }
 
     if (email == "") {
-        alert("email must be filled out");
+        alert("Email must be filled out");
         return false;
     }
 
