@@ -33,7 +33,7 @@ a {
 }
 
 .background {
-    background-image: url("../images/pokemon.background.jpg");
+    background-image: url("../images/background.quiz.avif");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
