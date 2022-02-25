@@ -256,7 +256,7 @@ first time and returning users.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JackDilger/Milstone-Project-One)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/JackDilger/Milstone-Project-Two)
 2. At the top of the Repositor, locate the "Settings" Button on the menu.
 3. Select 'Pages' from the menu on the left hand side.
 4. In the pages section under 'Source', click 'Branch' and select 'Main'.
