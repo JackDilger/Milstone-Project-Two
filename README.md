@@ -192,23 +192,25 @@
 
 
 
-### Features Left to Implement
+### Future development
 
 ***
 
-- High scores
-- Socials 
+- Add a page to display high scores and usernames of these players. This would add a nice competative element to the quiz for 
+first time and returning users.
+- Add more rounds to the quiz with a differnt format, ie picture round. This would make the quiz more and interactive for for first time and returning users.
+- Post the form data so this information can actually be stored and the prize draw can be used as intended to increase site traffic.
 
 
 ## Technologies used
 
 ***
 
-- HTML5- Markup language.
-- CSS3- Style sheet language.
-- Gitpod- Integrated development environment (IDE)  Used to write all my code.
-- Git- Used for version control.
-- Github- Used to host my repository.
+### Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)- Markup language.
+- [CSS3](https://en.wikipedia.org/wiki/CSS)- Style sheet language.
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)- Scripting language.
 
 
 ### Design 
@@ -218,7 +220,24 @@
 - [Balsamiq](https://balsamiq.com/)- Used to build wireframes.
 - [Google Fonts](https://fonts.google.com/)- Sourced the website fonts.
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)- Used to troubleshoot problems with code.
+- [BeFunky](https://www.befunky.com/create/resize-image/)- To resize images.
+- [Convertio](https://convertio.co/jpg-avif/)- To change image file type.
+- [Favicon.io](https://favicon.io/emoji-favicons/question-mark/)- Sourced the website Favicon.
+- [Unsplash](https://unsplash.com/photos/1fZC2rYbpsU)- Sourced background image.
+- [PixaBay](https://pixabay.com/)- Sourced images for end quiz and time out screens.
+- [DesignPieces](https://www.designpieces.com/palette/pokemon-logo-color-palette-hex-and-rgb/#:~:text=The%20Pok%C3%A9mon%20Logo%20is%20made,logo%20features%20a%20flat%20shadow.)- Color pallette used.
+-[WeLoveQuizes](https://www.welovequizzes.com/pokemon-quiz-questions-and-answers/)- Quiz questions.
+-[TheQuiz](https://www.thequiz.com/50-questions-every-pokemon-trainer-should-be-able-to-answer/)- Quiz questions.
+-[Joe](https://www.joe.co.uk/entertainment/hardest-pokemon-quiz-youll-ever-take-60547)- Quiz questions.
+-[UltimateQuizQuestions](https://www.ultimatequizquestions.com/pokemon-quiz/)- Quiz questions.
 
+
+
+### Frameworks, Libraries & Programs Used
+- [Gitpod](https://gitpod.io/workspaces)- Integrated development environment (IDE)  Used to write all my code.
+- [Git](https://git-scm.com/)- Used for version control.
+- [Github](https://github.com/)- Used to host my repository.
+- [Beautifier](https://beautifier.io/)- Used to organise code conisitantly.
 
 
 ### Testing 
@@ -266,7 +285,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Images
 
-- [Carousel DJ image](https://www.pexels.com/photo/man-using-dj-controller-1649693/)
+- [Background Image](https://unsplash.com/photos/1fZC2rYbpsU)
+- [Timeout Screen](https://pixabay.com/illustrations/gengar-pokemon-character-smile-5432819/)
+- [End Quiz](https://pixabay.com/illustrations/pikachu-pokemon-character-cartoon-5527377/)
 
 
 
