@@ -250,12 +250,15 @@ first time and returning users.
 ### Usability Testing
 
 - I used chrome dev tools to make sure my site was fully responsive across different screen sizes.
-- I used a chrome dev tools plug in called lighthouse to check my sites accessibility and it came back with no errors across all pages.
 - Logo takes the user back to the home page.
 - All buttons open are clickable and load the correct output.
 - The form submits and takes the user to the thankyou page once submitted.
 - Hovering over the links indicates to the user clearly to click and links are not default blue.
 - All functions tested in browser and console checked for no errors.
+- A lighthouse report of the website showed no accessibilty erros on the site.
+
+
+![Lighthouse](/assets/readme-files/lighthouse.png)
 
 
 ### Browser Testing
@@ -279,7 +282,7 @@ first time and returning users.
 
 
 
-[Chrome Dev Tools](/assets/readme-files/responsive-devices.png)
+![Chrome Dev Tools](/assets/readme-files/responsive-devices.png)
 
 
 
