@@ -242,6 +242,10 @@ first time and returning users.
 
 ### Validator Testing 
 
+- [Js Hint](https://jshint.com/)- All individual JavaScript files were copied in to JS hints validator and no warnings were found.
+- [WC3 Mark Up Validation](https://validator.w3.org/)- The pubilshed site link was validated and returned no error or warning in my HTML.
+- [W3C CSS Validation](https://validator.w3.org/)- The pubilshed site link was validated and returned no error or warnning in my CSS.
+
 
 ### Usability Testing
 
