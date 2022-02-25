@@ -57,6 +57,7 @@ function setNextQuestion() {
  * Function to set the 30 second limit to answer each question
  * Displays an alert if the timer reaches 0
  * Hides quetsion area and displays play again screen
+ * Credit Pawan Kumar- see README.md
  */
 function timer() {
     let count = 30;

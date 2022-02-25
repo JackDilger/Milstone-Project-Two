@@ -272,7 +272,15 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Code
 
-- I used [Bootstraps]()
+- [Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified)- Tutorial followed for base quiz functions. Code has been amended and additional features added for my websites purpose.
+- [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/8f9b28d4b7664bb59ddf18b8e090671f/b6d5c008ef4a460ba0836a224aa3b3fb/)- Code institute walk through project, used increment score function.
+- [Florin Pop](https://www.youtube.com/watch?v=XH5OW46yO8I&t=30s&ab_channel=FlorinPop)- Tutorial followed for modal pop-up. Code has been amended and additional features added for my websites purpose.
+- [JsFiddle](https://jsfiddle.net/JamesDordoy/1mgw7g99/3/)- Used to style 'Next' Button.
+- [Pawan Kumar](https://stackoverflow.com/a/44315106/18032684)- Timer function, code has been amended and additional features added for my websites purpose.
+- [W3Schools](https://www.w3schools.com/js/js_validation.asp)- Validate form function, code has been amended and additional features added for my websites purpose.
+- [CSS Tricks](https://css-tricks.com/adding-stroke-to-web-text/)- Text shadow CSS for next button.
+
+
 
 ***
 
