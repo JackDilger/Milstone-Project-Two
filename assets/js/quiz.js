@@ -1,4 +1,4 @@
-/**
+              /**
  * Credit WEB DEV Simplified- base quiz tutorial followed and was modfied and extra features added to fit my ideas
  * see REAMDME.md credit section
  */
@@ -12,21 +12,20 @@ const score = document.getElementById('score');
 const playAgain = document.getElementById('play-again-btn');
 const questionArea = document.getElementById('question-area');
 const endQuizHeading = document.getElementById('end-quiz-heading');
-const totalScore = document.getElementById('total-score');
 const pikachu = document.getElementById('pikachu');
 const gengar = document.getElementById('gengar');
 const countdown = document.getElementById('countdown');
 
 // Declared let variables
-let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex;
 let interval;
 
 
 // Increments currentQuestionIndex when next button is clicked
 nextButton.addEventListener('click', () => {
-    currentQuestionIndex++
-    setNextQuestion()
-})
+    currentQuestionIndex++;
+    setNextQuestion();
+});
 
 // Calls start quiz function
 startQuiz();
@@ -37,9 +36,9 @@ startQuiz();
  * Calls the setNextQuestion function
  */
 function startQuiz() {
-    shuffledQuestions = questions.sort(() => Math.random() - .5)
-    currentQuestionIndex = 0
-    setNextQuestion()
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+    currentQuestionIndex = 0;
+    setNextQuestion();
 }
 
 /**
@@ -48,9 +47,9 @@ function startQuiz() {
  * Shows the shuffled question
  */
 function setNextQuestion() {
-    resetState()
-    timer()
-    showQuestion(shuffledQuestions[currentQuestionIndex])
+    resetState();
+    timer();
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
 /**
@@ -71,9 +70,9 @@ function timer() {
             playAgain.classList.remove("hide");
             playAgain.onclick = function () {
                 location.href = "quiz.html";
-            }
-            gengar.classList.remove('hide')
-            questionArea.classList.add('hide')
+            };
+            gengar.classList.remove('hide');
+            questionArea.classList.add('hide');
             clearInterval(interval);
         }
     }, 1000);
@@ -84,27 +83,27 @@ function timer() {
  * Function to show question and answers
  */
 function showQuestion(question) {
-    questionText.innerText = question.question
+    questionText.innerText = question.question;
     question.answers.forEach(answer => {
-        const button = document.createElement('button')
-        button.innerText = answer.text
-        button.classList.add('option-btn')
+        const button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('option-btn');
         if (answer.correct) {
-            button.dataset.correct = answer.correct
+            button.dataset.correct = answer.correct;
         }
-        button.addEventListener('click', selectAnswer)
-        answerButtons.appendChild(button)
-    })
+        button.addEventListener('click', selectAnswer);
+        answerButtons.appendChild(button);
+    });
 }
 
 /**
  * Function resets question and answer section to default state
  */
 function resetState() {
-    nextButton.classList.add('hide')
-    answerButtons.classList.remove('disable')
+    nextButton.classList.add('hide');
+    answerButtons.classList.remove('disable');
     while (answerButtons.firstChild) {
-        answerButtons.removeChild(answerButtons.firstChild)
+        answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
@@ -116,15 +115,15 @@ function resetState() {
  * Disables answer buttons after the user selects first answer
  */
 function selectAnswer(event) {
-    const selectedAnswer = event.target
-    const correct = selectedAnswer.dataset.correct
+    const selectedAnswer = event.target;
+    const correct = selectedAnswer.dataset.correct;
     if (correct) {
-        selectedAnswer.style.backgroundColor = 'green'
-        incrementScore()
+        selectedAnswer.style.backgroundColor = 'green';
+        incrementScore();
     } else {
-        selectedAnswer.style.backgroundColor = 'red'
+        selectedAnswer.style.backgroundColor = 'red';
     }
-    answerButtons.classList.add('disable')
+    answerButtons.classList.add('disable');
 
     /**
      * Checks to see if the user has answered the last question
@@ -132,14 +131,14 @@ function selectAnswer(event) {
      * Calls endQuiz function and clears timer
      */
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
-        nextButton.classList.remove('hide')
+        nextButton.classList.remove('hide');
     } else {
         playAgain.classList.remove("hide");
         playAgain.onclick = function () {
             location.href = "quiz.html";
-        }
+        };
         clearInterval(interval);
-        endQuiz()
+        endQuiz();
     }
 }
 
@@ -159,14 +158,10 @@ function incrementScore() {
  * Displays end quiz image and header
  */
 function endQuiz() {
-    questionArea.classList.add('hide')
-    endQuizHeading.classList.remove('hide')
-    pikachu.classList.remove('hide')
-    countdown.classList.add('hide')
+    questionArea.classList.add('hide');
+    endQuizHeading.classList.remove('hide');
+    pikachu.classList.remove('hide');
+    countdown.classList.add('hide');
 }
-
-
-
-
 
 
