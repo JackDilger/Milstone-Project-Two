@@ -240,8 +240,44 @@ first time and returning users.
 
 ***
 
--
--
+### Validator Testing 
+
+
+### Usability Testing
+
+- I used chrome dev tools to make sure my site was fully responsive across different screen sizes.
+- I used a chrome dev tools plug in called lighthouse to check my sites accessibility and it came back with no errors across all pages.
+- Logo takes the user back to the home page.
+- All buttons open are clickable and load the correct output.
+- The form submits and takes the user to the thankyou page once submitted.
+- Hovering over the links indicates to the user clearly to click and links are not default blue.
+- All functions tested in browser and console checked for no errors.
+
+
+### Browser Testing
+
+- I tested the site across multiple browsers which all worked.
+  - Chrome
+  - Safari
+  - Edge
+  - Firefox
+  - Opera
+
+### Device Testing
+
+- I tested the site across differnt device operating systems which all worked.
+  - The latest version of iOS and iPadOS is 15.3. 1 
+  - The latest version of Android OS 12
+  - Windows PC
+  - Macbook
+
+- I used chrome dev tools to test the sites responsiveness across a range of devices which all worked.
+
+
+
+[Chrome Dev Tools](/assets/readme-files/responsive-devices.png)
+
+
 
 ## Deployment
 

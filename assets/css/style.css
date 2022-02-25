@@ -199,7 +199,17 @@ a {
     margin-bottom: 3px;
 }
 
-#form-label {
+#form-label-name {
+    letter-spacing: 1px;
+    color: #ffcb05
+}
+
+#form-label-email {
+    letter-spacing: 1px;
+    color: #ffcb05
+}
+
+#form-label-answer {
     letter-spacing: 1px;
     color: #ffcb05
 }
