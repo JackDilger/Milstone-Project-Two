@@ -80,9 +80,9 @@ function validateForm() {
     prizeForm.classList.add('hide');
     formInfoText.classList.add('hide');
 
-    prizeformComplete.innerHTML = ` <h1> Thanks for completing our quiz ${fullName}!
+    prizeformComplete.innerHTML = ` <h2> Thanks for completing our quiz ${fullName}!
     <br>
     Best of luck in the prize draw!
-    </h1>`;
+    </h2>`;
 }
   
