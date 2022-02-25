@@ -163,5 +163,3 @@ function endQuiz() {
     pikachu.classList.remove('hide');
     countdown.classList.add('hide');
 }
-
-

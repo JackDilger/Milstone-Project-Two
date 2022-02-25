@@ -49,7 +49,7 @@ closePrizeModal.addEventListener('click', () => {
 
 // Calls validateForm function once form is submitted
 submitFormBtn.onclick = function () {
-    validateForm()
+    validateForm();
 };
 
 /**
@@ -59,9 +59,9 @@ submitFormBtn.onclick = function () {
  * Amended from w3schools- See README.md credit section
  */
 function validateForm() {
-    fullName = prizeForm.elements["full-name"].value
-    email = prizeForm.elements["email-address"].value
-    answer = prizeForm.elements["answer"].value
+    fullName = prizeForm.elements["full-name"].value;
+    email = prizeForm.elements["email-address"].value;
+    answer = prizeForm.elements["answer-box"].value;
     if (fullName == "") {
         alert("Full name must be filled out");
         return false;
@@ -76,13 +76,13 @@ function validateForm() {
         alert("Answer must be filled out");
         return false;
     }
-    submitFormBtn.classList.add('hide')
-    prizeForm.classList.add('hide')
-    formInfoText.classList.add('hide')
+    submitFormBtn.classList.add('hide');
+    prizeForm.classList.add('hide');
+    formInfoText.classList.add('hide');
 
     prizeformComplete.innerHTML = ` <h1> Thanks for completing our quiz ${fullName}!
     <br>
     Best of luck in the prize draw!
-    </h1>`
+    </h1>`;
 }
   
