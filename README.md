@@ -196,11 +196,10 @@
 
 ***
 
-- Add a page to display high scores and usernames of these players. This would add a nice competative element to the quiz for 
+- Add a page to display high scores and usernames of these players. This would add a nice competitive element to the quiz for 
 first time and returning users.
-- Add more rounds to the quiz with a differnt format, ie picture round. This would make the quiz more and interactive for for first time and returning users.
-- Post the form data so this information can actually be stored and the prize draw can be used as intended to increase site traffic.
-
+- Add more rounds to the quiz with a different format, i.e. picture round. This would make the quiz more and interactive for first time and returning users.
+- Post the form data so this information can actually be stored, and the prize draw can be used as intended to increase site traffic.
 
 ## Technologies used
 
@@ -211,7 +210,6 @@ first time and returning users.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)- Markup language.
 - [CSS3](https://en.wikipedia.org/wiki/CSS)- Style sheet language.
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)- Scripting language.
-
 
 ### Design 
 
@@ -225,20 +223,18 @@ first time and returning users.
 - [Favicon.io](https://favicon.io/emoji-favicons/question-mark/)- Sourced the website Favicon.
 - [Unsplash](https://unsplash.com/photos/1fZC2rYbpsU)- Sourced background image.
 - [PixaBay](https://pixabay.com/)- Sourced images for end quiz and time out screens.
-- [DesignPieces](https://www.designpieces.com/palette/pokemon-logo-color-palette-hex-and-rgb/#:~:text=The%20Pok%C3%A9mon%20Logo%20is%20made,logo%20features%20a%20flat%20shadow.)- Color pallette used.
+- [DesignPieces](https://www.designpieces.com/palette/pokemon-logo-color-palette-hex-and-rgb/#:~:text=The%20Pok%C3%A9mon%20Logo%20is%20made,logo%20features%20a%20flat%20shadow.)- Colour palette used.
 -[WeLoveQuizes](https://www.welovequizzes.com/pokemon-quiz-questions-and-answers/)- Quiz questions.
 -[TheQuiz](https://www.thequiz.com/50-questions-every-pokemon-trainer-should-be-able-to-answer/)- Quiz questions.
 -[Joe](https://www.joe.co.uk/entertainment/hardest-pokemon-quiz-youll-ever-take-60547)- Quiz questions.
 -[UltimateQuizQuestions](https://www.ultimatequizquestions.com/pokemon-quiz/)- Quiz questions.
 
 
-
 ### Frameworks, Libraries & Programs Used
 - [Gitpod](https://gitpod.io/workspaces)- Integrated development environment (IDE)  Used to write all my code.
 - [Git](https://git-scm.com/)- Used for version control.
 - [Github](https://github.com/)- Used to host my repository.
-- [Beautifier](https://beautifier.io/)- Used to organise code conisitantly.
-
+- [Beautifier](https://beautifier.io/)- Used to organise code consistently.
 
 ### Testing 
 
@@ -246,7 +242,6 @@ first time and returning users.
 
 -
 -
-
 
 ## Deployment
 
@@ -270,16 +265,14 @@ The project was deployed to GitHub Pages using the following steps...
 ### Credits 
 
 - [Google Fonts](https://fonts.google.com/)- Sourced the website fonts here and imported through a link in my style.css sheet. Requests to the Google Fonts API are made to resource-specific domains, such as fonts.googleapis.com or fonts.gstatic.com.
+- [Font Awesome](https://fontawesome.com/v5/search)- used to make website visually appealing.
 - [W3schools](https://www.w3schools.com/)- I used their tutorials on HTML and CSS for further understanding and troubleshooting throughout my project.
 - [Stack Overflow](https://stackoverflow.com/)- I used Stack Overflow to get a more in depth understanding on HTML and CSS  throughout my project.
 - [Code Institute Example Sample README](https://github.com/Code-Institute-Solutions/SampleREADME) & [README Template](https://github.com/Code-Institute-Solutions/readme-template)- I used these as rough guides when planning and writing my README file.
 
-
 ### Code
 
-- I used [Bootstraps](https://getbootstrap.com/docs/4.3/components/carousel/#with-indicators)
- library throughout my website, mainly in making the site responsive using their grid system. Also using their components and built in CSS, customising this to meet my website requirements.
-
+- I used [Bootstraps]()
 
 ***
 
@@ -288,14 +281,3 @@ The project was deployed to GitHub Pages using the following steps...
 - [Background Image](https://unsplash.com/photos/1fZC2rYbpsU)
 - [Timeout Screen](https://pixabay.com/illustrations/gengar-pokemon-character-smile-5432819/)
 - [End Quiz](https://pixabay.com/illustrations/pikachu-pokemon-character-cartoon-5527377/)
-
-
-
-
-
-
-
-
-
-
-

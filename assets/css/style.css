@@ -243,6 +243,7 @@ a {
     margin: 40px 0;
 }
 
+/*-------------------------- Credit JsFiddle- See README.md credit section.*/
 #next-btn {
     border: 10px solid #262122;
     width: 100px;
@@ -266,6 +267,7 @@ a {
     box-shadow: 0 0 0 4px #BA0C2F;
 }
 
+/*-------------------------- Credit JsFiddle- See README.md credit section.*/
 .next-animated {
     animation-duration: 1s;
     animation-fill-mode: both;
