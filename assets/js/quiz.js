@@ -142,7 +142,10 @@ function selectAnswer(event) {
     }
 }
 
-// Function to increment score counter by 1
+/**
+ * Function to increment score counter by 1
+ * Credit Code Institute Love Maths- See README.md credit section.
+ */
 function incrementScore() {
     let currentScore = parseInt(document.getElementById("score").innerText);
     score.innerText = ++currentScore;
