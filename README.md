@@ -243,9 +243,8 @@ first time and returning users.
 ### Validator Testing 
 
 - [Js Hint](https://jshint.com/)- All individual JavaScript files were copied in to JS hints validator and no warnings were found.
-- [WC3 Mark Up Validation](https://validator.w3.org/)- The pubilshed site link was validated and returned no error or warning in my HTML.
-- [W3C CSS Validation](https://validator.w3.org/)- The pubilshed site link was validated and returned no error or warnning in my CSS.
-
+- [WC3 Mark Up Validation](https://validator.w3.org/)- The published site link was validated and returned no error or warning in my HTML.
+- [W3C CSS Validation](https://validator.w3.org/)- The published site link was validated and returned no error or warning in my CSS.
 
 ### Usability Testing
 
@@ -255,11 +254,9 @@ first time and returning users.
 - The form submits and takes the user to the thankyou page once submitted.
 - Hovering over the links indicates to the user clearly to click and links are not default blue.
 - All functions tested in browser and console checked for no errors.
-- A lighthouse report of the website showed no accessibilty erros on the site.
-
+- A lighthouse report of the website showed no accessibility errors on the site.
 
 ![Lighthouse](/assets/readme-files/lighthouse.png)
-
 
 ### Browser Testing
 
@@ -272,17 +269,37 @@ first time and returning users.
 
 ### Device Testing
 
-- I tested the site across differnt device operating systems which all worked.
+- I tested the site across different device operating systems which all worked.
   - The latest version of iOS and iPadOS is 15.3. 1 
   - The latest version of Android OS 12
   - Windows PC
-  - Macbook
+  - MacBook
 
 - I used chrome dev tools to test the sites responsiveness across a range of devices which all worked.
 
-
+ 
 
 ![Chrome Dev Tools](/assets/readme-files/responsive-devices.png)
+
+
+
+### Fixed bugs during development
+
+- [Seo Warning- link to commit](59af4929aedb1d8401d39e8236e5553c481bc7eb)
+  - A lighthouse report pointed out that I had no meta tags that would help my website appear in web searches. These were added to both html files in the head of the page and now SEO shows 100 in my light house report
+
+- [HTML Validator Warning- link to commit](7f369e28ff904f01cf3ec11dcd2a0d3686b3505c)
+  - W3C validator pointed out that I had duplicated the same element ID 3 times, the ID for each was changed and the updated in the html file and css file. After these changes the validator did not any syntax error.
+
+- [JS Hint Validator Warning- link to commit](cceb054820f49f5261d01599407f6495553da7a8)
+  - Js hint warning advised 'A leading decimal point can be confused as a dot' referring to this arrow function 'shuffledQuestions = questions.sort(() => Math.random() - .5)'. This was udpated to 'shuffledQuestions = questions.sort(() => Math.random() - 0.5);' which provided the same result but passed the function through the validator after.
+  - Several missing semicolons were also added.
+  - An unused declared variable was removed.
+
+- [JS Hint Validator Warning- link to commit](9ae26b718e679299a627e87e2820f27b91d1ebfc)
+  - Js hint warning advised '['answer'] is better written in dot notation.' when referring to my validate form function. I had to rename the answer as this name had already been declared and was causing confusion when trying to target the correct element. Tests were done after this to ensure the form still worked as intended and it did. The warning was also removed from JS Hint.
+  - Several missing semicolons were also added. Tests were done after this to ensure every function still worked as intended and the warning was also removed from JS hint.
+
 
 
 
