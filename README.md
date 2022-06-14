@@ -246,6 +246,43 @@ first time and returning users.
 - [WC3 Mark Up Validation](https://validator.w3.org/)- The published site link was validated and returned no error or warning in my HTML.
 - [W3C CSS Validation](https://validator.w3.org/)- The published site link was validated and returned no error or warning in my CSS.
 
+## Development Version- Manual Testing
+
+
+Test            | Outcome                          | Result
+--------------- | -------------------------------- | ------------
+Pokemon Quiz logo | When the logo is selected with a click does it link back to the home page or refresh the home page if the user is already their? | Pass 
+Button Links | Does each link direct the user to the intended destination? Does the text change color when hovering to indicate the button is clickable? | Pass
+Start Quiz button | Does this launch the main quiz to allow the user to start the game? | Pass
+Instructions button | Does this open the instructions modal to tell players how to play? | Pass
+Instructions modal close button | Does this close the instructions modal and return to the home page? | Pass
+Prize Draw button | Does this open the prize draw modal and display the information and submition form? | Pass
+Prize Draw form submit button | Does this submit the form once all fields are inputed? | Pass
+Prize Draw form close button | Does this close the prize draw modal and return to the home page? | Pass
+Answer options buttons- Feeback | Are users given instant feedback on if an answer is correct? If the answer is correct the button turns green? If incorrect the button colour will change to red? | Pass
+Answer options buttons- Disable buttons | Are all other answer buttons disabled once the user selects their first answer? | Pass
+Next button | Does the next button display once a user selects their answer to a question? Does this direct the user to the next question when clicked? | Pass
+Next button- Animation | Does the next button shake animation work once displayed? Does the outer border change to red when hovered over to indicate the button is clickable? | Pass
+Score Counter | Does the score start at zero and incremente by 1 each time a user selects a correct answer? | Pass
+Countdown Timer | Does the timer countdown down from 30 seconds to zero and reset for each new question? | Pass
+Time out alert | Does the time out alert display if a user lets the countodwn timer reach zero?| Pass
+Play again button | Does this display if a time out occurs or the quiz is finished? Does this restart the quiz from the begining, reshuffle the questions and reset the score counter when clicked?| Pass
+End quiz section| Does the end quiz section display, thanking users for playing and displaying their final score, once all questions are answered? | Pass
+Prize Draw form input alert | Does the alert window display asking the user to fill out all input fields if they trto submit without doing so? | Pass
+Prize Draw form input alert | Does the alert window display asking the user to fill out all input fields if they trto submit without doing so? | Pass
+Prize Draw form completed | Does the text feedback display with the user’s name to let them know their entry was received into the prize draw once the form is submitted? | Pass
+404 error page | Is a user taken to the 404 error page and provided with a working link back to the main site if they are directed to a non existent page? | Pass
+
+
+## Deployed Version- Manual Testing
+
+Test            | Outcome                          | Result
+--------------- | -------------------------------- | ------------
+Full checks against development version | Were all development testing criteria still passed once the site was deployed, with no errors showing?| Pass
+Visual Checks | Are all images of usableresolution, all text unobscured and undistracted foregrounds? | Pass
+Code checked | No erros showing in the code? | Pass
+Console errors | No console errors shwoing? | Pass
+
 ### Usability Testing
 
 - I used chrome dev tools to make sure my site was fully responsive across different screen sizes.
