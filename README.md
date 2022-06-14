@@ -306,17 +306,35 @@ Console errors | No console errors shwoing? | Pass
 
 ### Device Testing
 
-- I tested the site across different device operating systems which all worked.
+- I manually tested the site across different device operating systems which all worked.
   - The latest version of iOS and iPadOS is 15.3. 1 
   - The latest version of Android OS 12
   - Windows PC
   - MacBook
 
-- I used chrome dev tools to test the sites responsiveness across a range of devices which all worked.
+- I used chrome dev tools to manually test the sites responsiveness across a range of devices which all worked. Devices include:
+  - iphone 5-12
+  - iphone SE
+  - iphone XR
+  - iphone 12 PRO
+  - Pixel 5
+  - Galaxy S8+
+  - Galaxy S20 Ultra
+  - Galaxy A51/71
+  - Galaxy Fold
+  - ipad Air
+  - ipad Mini
+  - Surface Pro 7
+  - Surface Pro Duo
+  - Windows PC
+  - MacBook
+  - Nest Hub
+  - Nest Hub Max
 
+- The site was ran through [Am I Responsive?](https://ui.dev/amiresponsive) to visually show the the fully responsive layout which again can be seem below:
  
 
-![Chrome Dev Tools](/assets/readme-files/responsive-devices.png)
+![Responsive site images](/assets/readme-files/responisve-site.jpg)
 
 
 
