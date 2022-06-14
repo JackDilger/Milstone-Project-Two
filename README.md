@@ -198,7 +198,7 @@
 
 - Add a page to display high scores and usernames of these players. This would add a nice competitive element to the quiz for 
 first time and returning users.
-- Add more rounds to the quiz with a different format, i.e. picture round. This would make the quiz more and interactive for first time and returning users.
+- Add more rounds to the quiz with a different format, i.e. picture round. This would make the quiz more interactive for first time and returning users.
 - Post the form data so this information can actually be stored, and the prize draw can be used as intended to increase site traffic.
 
 ## Technologies used
