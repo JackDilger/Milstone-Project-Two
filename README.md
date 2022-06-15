@@ -212,12 +212,15 @@ At the time of planning Pokémon Legends: Arceus was the most recent release fro
 
 This is very much version one of the website and there are many features I would like to develop and apply in future to help further improve it:
 
-- I would really like to first allow users to register for the site as a user, this would help us capture more information about our users to see if we are reaching our intended target audience. Also this it would allow me to implement a 'High scores' section of the website so users can compete with other people. The high scores section would further improve our aim of wanting a
-competitive aspect to the quiz and encourage users to return to the site to help personally improve their scores.
-- With registered user information, this would also allow us to capture users contact information so we can let them know about future changes and further prize draws. This would help a lot in giving users further incentive to return to the site.
+
+- I would really like to understand more about our target audience by getting players to register for the site so we can gather information on them. Having user profiles will allow us to do so and open the door for many other features as well. 
+- Once user profiles are working this would allow me to implement a 'High scores' section of the website so players can compete with one another. This would further improve our aim of wanting a competitive aspect to the quiz and encourage users to return to the site to personally improve their scores.
+- With registered player information, this would also allow us to capture users contact information so we can let them know about future changes and further prize draws. This would help a lot in giving further incentive to return to the site.
 - A future more advanced version of the website would include a varied quiz format, i.e. picture and video rounds. I want to give users more options than just the multiple choice quiz alone. A more interactive quiz experience would be much more entertaining and fun for first time and repeat users. As well as this, after researching online I cannot see any other websites offering these types of interactive Pokémon quiz so it would really help in standing out from other quiz websites. 
-- I would really like to develop the main menu of the website so that users can select the quiz types by category once more are included, each quiz could be tailored to specific Games or Films in the Pokémon series and implement personalised colour schemes and unique fonts related for each. A search facility will later be added once websites quiz library is much larger for users to easily locate what they want. I would like a more personalised experience for registered users where they can save their favourite quizzes to their profile, update their profile picture and username. 
-- I would like to build a community feel to the website eventually, where users can leave comments on each quiz and interact with other players through the comments section. This would help encourage players to give feedback on the quizzes and the website as a whole so we can further develop it to their needs. 
+- I would really like to develop the main menu of the website so that users can select the quiz types by category once more are included, each quiz could be tailored to specific Games or Films in the Pokémon series and implement personalised colour schemes and unique fonts related for each.
+- A search facility will later be added once the websites quiz library is more extensive. This will aid users in navigating the site with ease so they can locate what they want quickly. I would like a more personalised experience for registered users where they can save their favourite quizzes to their profile, as well as update their profile picture and username. 
+- I would like to build a community feel to the website eventually, where users can leave comments on each quiz and interact with other players through the comments section. This would help encourage players to give feedback on the quizzes and the website as a whole,  then we can further develop it to their needs. 
+
 
 
 ## Technologies used
