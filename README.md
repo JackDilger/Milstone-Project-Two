@@ -291,7 +291,7 @@ Time out alert | Does the time out alert display if a user lets the countodwn ti
 Play again button | Does this display if a time out occurs or the quiz is finished? Does this restart the quiz from the begining, reshuffle the questions and reset the score counter when clicked?| Pass
 End quiz section| Does the end quiz section display, thanking users for playing and displaying their final score, once all questions are answered? | Pass
 Prize Draw form input alert | Does the alert window display asking the user to fill out all input fields if they trto submit without doing so? | Pass
-Prize Draw form input alert | Does the alert window display asking the user to fill out all input fields if they trto submit without doing so? | Pass
+Prize Draw form input alert | Does the alert window display asking the user to fill out all input fields if they try to submit without doing so? | Pass
 Prize Draw form completed | Does the text feedback display with the user’s name to let them know their entry was received into the prize draw once the form is submitted? | Pass
 404 error page | Is a user taken to the 404 error page and provided with a working link back to the main site if they are directed to a non existent page? | Pass
 
