@@ -19,10 +19,7 @@ The rationale behind the Pokémon theme itself aligns perfectly with the overall
 The popularity in numbers alone would help massively in targeting users to play our online quiz. I wanted also a theme that would be appealing to a wider range of people and again Pokémon fits this perfectly. The first video game was released in 1996 in Japan for the Game Boy and you may be forgiven for thinking its main demographic is 'just for kids', but this is not the case. A 2020 study published in the journal Heliyon pegged the average age of Pokémon Go players at 25. Following the release of Pokémon Sun and Moon in 2016, Nintendo revealed that the duo of 3DS games attracted more players in their 20s and 30s than any entry had previously. The trend cleary shows Pokémon players are growing up with these games, exactly as I have done in my own experience. 
 
 
-After researching the most popular online Pokémon quiz's it was clear the multiple choice quiz format was the most Widley used which is the reason this format was used, I did add some further features to the quiz though as I wanted to include more of a competitive edge to the quiz which is explained further in the features section below. At the time of planning Pokémon Legends: Arceus was the most recent release from the franchise and I wanted to implement a giveaway including this game to give extra incentive to users and again help drive traffic to the site.
-
-
-
+After researching the most popular online Pokémon quiz's it was clear the multiple choice quiz format was the most Widley used which is the reason this format was used, I did add some further features to the quiz though as I wanted to include more of a competitive edge to the quiz which is explained further in the features section below. At the time of planning Pokémon Legends: Arceus was the most recent release from the franchise and I wanted to implement a giveaway including this game to give extra incentive to users to play and again help drive traffic to the site.
 
 
 
@@ -213,10 +210,15 @@ After researching the most popular online Pokémon quiz's it was clear the multi
 
 ***
 
-- Add a page to display high scores and usernames of these players. This would add a nice competitive element to the quiz for 
-first time and returning users.
-- Add more rounds to the quiz with a different format, i.e. picture round. This would make the quiz more interactive for first time and returning users.
-- Post the form data so this information can actually be stored, and the prize draw can be used as intended to increase site traffic.
+This is very much version one of the website and there are many features I would like to develop and apply in future to help further improve it:
+
+- I would really like to first allow users to register for the site as a user, this would help us capture more information about our users to see if we are reaching our intended target audience. As well this it would allow me to implement a 'High scores' section of the website so users can compete with other people. The high scores section would further improve our aim of wanting a
+competitive aspect to the quiz and encourage users to return to the site to help personally improve their scores.
+- With registered user information, this would also allow us to capture users contact information so we can let them know about future changes and further prize draws. This would help a lot in giving users further incentive to return to the site.
+- A future more advanced version of the website would include a varied quiz format, i.e. picture and video rounds. I want to give users more options than just the multiple choice quiz alone. A more interactive quiz experience would be much more entertaining and fun for first time and repeat users. As well as this, after researching online I cannot see any other websites offering these types of interactive Pokémon quiz so it would really help in standing out from other quiz websites. 
+- I would really like to develop the main menu of the website so that users can select the quiz types by category once more are included, each quiz could be tailored to specific Games or Films in the Pokémon series and implement personalised colour schemes and unique fonts related for each. A search facility will later be added once websites quiz library is much larger for users to easily locate what they want. I would like a more personalised experience for registered users where they can save their favourite quizzes to their profile, update their profile picture and username. 
+- I would like to build a community feel to the website eventually, where users can leave comments on each quiz and interact with other players through the comments section. This would help encourage players to give feedback on the quizzes and the website as a whole so we can further develop it to their needs. 
+
 
 ## Technologies used
 
