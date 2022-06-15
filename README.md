@@ -16,7 +16,7 @@ In the planning stage of this website once I knew a quiz format was going to be 
 
 The rationale behind the Pokémon theme itself aligns perfectly with the overall goal of garnering as many site users as possible. The entire Pokémon media franchise is the highest-grossing entertainment media franchise of all time, having grossed an estimated $90 billion in lifetime revenue. Pokémon Go is the most-downloaded mobile game, with over 1 billion downloads. In addition, the Pokémon video game series has sold a total of over 1.3 billion units in retail sales and official downloads.
 
-The popularity in numbers alone would help massively in targeting users to play our online quiz. I wanted also a theme that would be appealing to a wider range of people and again Pokémon fits this perfectly. The first video game was released in 1996 in Japan for the Game Boy and you may be forgiven for thinking its main demographic is 'just for kids', but this is not the case. A 2020 study published in the journal Heliyon pegged the average age of Pokémon Go players at 25. Following the release of Pokémon Sun and Moon in 2016, Nintendo revealed that the duo of 3DS games attracted more players in their 20s and 30s than any entry had previously. The trend cleary shows Pokémon players are growing up with these games, exactly as I have done in my own experience. 
+The popularity in numbers alone would help massively in targeting as many people as possible to play our online quiz. I wanted also a theme that would be appealing to a wider range of people and again Pokémon fits this perfectly. The first video game was released in 1996 in Japan for the Game Boy and you may be forgiven for thinking its main demographic is 'just for kids', but this is not the case. A 2020 study published in the journal Heliyon pegged the average age of Pokémon Go players at 25. Following the release of Pokémon Sun and Moon in 2016, Nintendo revealed that the duo of 3DS games attracted more players in their 20s and 30s than any entry had previously. The trend cleary shows Pokémon players are growing up with these games, exactly as I have done in my own experience. 
 
 
 After researching the most popular online Pokémon quiz's it was clear the multiple choice quiz format was the most Widley used which is the reason this format was used, I did add some further features to the quiz though as I wanted to include more of a competitive edge to the quiz which is explained further in the features section below. At the time of planning Pokémon Legends: Arceus was the most recent release from the franchise and I wanted to implement a giveaway including this game to give extra incentive to users to play and again help drive traffic to the site.
@@ -212,7 +212,7 @@ After researching the most popular online Pokémon quiz's it was clear the multi
 
 This is very much version one of the website and there are many features I would like to develop and apply in future to help further improve it:
 
-- I would really like to first allow users to register for the site as a user, this would help us capture more information about our users to see if we are reaching our intended target audience. As well this it would allow me to implement a 'High scores' section of the website so users can compete with other people. The high scores section would further improve our aim of wanting a
+- I would really like to first allow users to register for the site as a user, this would help us capture more information about our users to see if we are reaching our intended target audience. Also this it would allow me to implement a 'High scores' section of the website so users can compete with other people. The high scores section would further improve our aim of wanting a
 competitive aspect to the quiz and encourage users to return to the site to help personally improve their scores.
 - With registered user information, this would also allow us to capture users contact information so we can let them know about future changes and further prize draws. This would help a lot in giving users further incentive to return to the site.
 - A future more advanced version of the website would include a varied quiz format, i.e. picture and video rounds. I want to give users more options than just the multiple choice quiz alone. A more interactive quiz experience would be much more entertaining and fun for first time and repeat users. As well as this, after researching online I cannot see any other websites offering these types of interactive Pokémon quiz so it would really help in standing out from other quiz websites. 
@@ -300,7 +300,7 @@ Test            | Outcome                          | Result
 Full checks against development version | Were all development testing criteria still passed once the site was deployed, with no errors showing?| Pass
 Visual Checks | Are all images of usableresolution, all text unobscured and undistracted foregrounds? | Pass
 Code checked | No erros showing in the code? | Pass
-Console errors | No console errors shwoing? | Pass
+Console errors | No console errors showing? | Pass
 
 ### Usability Testing
 
