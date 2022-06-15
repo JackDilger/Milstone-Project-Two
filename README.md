@@ -8,10 +8,20 @@
 
 [Pokémon Quiz](https://jackdilger.github.io/Milstone-Project-Two/) is the ultimate test for any one well versed with the popular games and tv series. It is a fun and interactive site that follows a multiple-choice quiz format to test the user’s knowledge of all things Pokémon. A 30 second time limit is placed on each question, forcing the user to restart if the clock runs down. The user gets feedback on their score along the way and a prize draw adds incentive for the user to complete the quiz in full. How much do you know about the world of Pokémon? Test yourself with our quiz to find out …
 
+## Strategy and planning
+
+***
+
+be the main design, I wanted to choose an area I was personally enthusiastic about as well as something with a wider popularity and target audience so I could gather as many potential users as possible. After researching the most popular online Pokémon quiz's online it was clear the multiple choice quiz format was the most Widley used which is the reason this format was used. 
+
+The rationale behind the Pokémon theme itself aligns perfectly with the overall goal of garnering as many site users as possible. The entire Pokémon media franchise is the highest-grossing entertainment media franchise of all time, having grossed an estimated $90 billion in lifetime revenue. Pokémon Go is the most-downloaded mobile game, with over 1 billion downloads. In addition, the Pokémon video game series has sold a total of over 1.3 billion units in retail sales and official downloads.
+
+The popularity in numbers alone would help massively in targeting users to play our online quiz. I wanted also a theme that would be appealing to a wider range of people and again Pokémon fits this perfectly. The first video game was released in 1996 in Japan for the Game Boy and you may be forgiven for thinking its main demographic is 'just for kids', but this is not the case. A 2020 study published in the journal Heliyon pegged the average age of Pokémon Go players at 25. Following the release of Pokémon Sun and Moon in 2016, Nintendo revealed that the duo of 3DS games attracted more players in their 20s and 30s than any entry had previously. The trend is clear: Pokémon players are growing up with these games.
+
 
 ## User Experience (UX)
 
-***
+
 
 -   ### User stories
 
